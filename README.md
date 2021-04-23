@@ -20,3 +20,5 @@
 - [Georasters](https://pypi.org/project/georasters/): The GeoRasters package is a python module that provides a fast and flexible tool to work with GIS raster files. It provides the GeoRaster class, which makes working with rasters quite transparent and easy
 
 - [Fiona](https://github.com/Toblerity/Fiona): It reads and writes geographic data files and thereby helps Python programmers integrate geographic information systems with other computer systems.
+
+- [geemap](https://geemap.org/): A Python package for interactive mapping with Google Earth Engine, ipyleaflet, and ipywidgets.
