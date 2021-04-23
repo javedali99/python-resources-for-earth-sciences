@@ -14,7 +14,7 @@ If you have any comments or suggestions for additions or improvements for this r
 
 ## Content
 
-* [Geospatial Analysis](#geospatial-analysis)
+* [Geospatial Analysis and Mapping](#geospatial-analysis-and-mapping)
 * [Hydrology](#hydrology)
   + [Data Collection](#data-collection)
   + [Hydrological Modelling](#hydrological-modelling)
@@ -28,7 +28,7 @@ If you have any comments or suggestions for additions or improvements for this r
 
 ---
 
-# Geospatial Analysis
+# Geospatial Analysis and Mapping
 
 - [Geopandas](https://geopandas.org/index.html): GeoPandas is an open source project to make working with geospatial data in python easier. GeoPandas extends the datatypes used by pandas to allow spatial operations on geometric types.
 
