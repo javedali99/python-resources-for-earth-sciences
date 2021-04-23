@@ -57,6 +57,10 @@ If you have any comments or suggestions for additions or improvements for this r
 
 - [Lidar](https://github.com/giswqs/lidar): Terrain and hydrological analysis based on LiDAR-derived digital elevation models (DEM).
 
+- [PYWR](https://github.com/pywr/pywr): Spatial allocation tool 
+
+
+
 ## Hydrology
 
 ### Data Collection
@@ -171,6 +175,41 @@ If you have any comments or suggestions for additions or improvements for this r
 - [HydroLM](https://github.com/mullenkamp/HydroLM): The HydroLM package contains a class and functions for automating linear regressions OLS for hydrologists.
 
 - [PySDI](https://bitbucket.org/pysdi/pysdi/src/master/): It is a set of open source scripts that compute non-parametric standardized drought indices (SDI) using raster data sets as input data.
+
+
+### Miscellaneous
+
+- [ESMPY](https://www.earthsystemcog.org/projects/esmpy/): Earth System Modeling Framework (ESMF) Python interface 
+
+- [PyHSPF](https://github.com/djlampert/PyHSPF): Python extensions to the Hydrological Simulation Program in Fortran (HSPF).
+
+- [SPHY](https://github.com/WilcoTerink/SPHY): Spatial Processes in HYdrology (SPHY) model 
+
+- [xsboringen](https://github.com/tomvansteijn/xsboringen): (In Dutch) A python library for processing and plotting borehole and CPT data, developed for open data formats in the Netherlands. 
+
+- [PyMT](https://github.com/csdms/pymt/): It is an Open Source Python package that provides the necessary tools used for the coupling of models that expose the Basic Model Interface (BMI).
+
+- [Landlab](https://github.com/landlab/landlab): The Landlab project creates an environment in which scientists can build a numerical landscape model without having to code all of the individual components. 
+
+- [EFlowCalc](https://github.com/ThibHlln/eflowcalc): Calculator of Streamflow Characteristics. 
+
+- [IRIS](https://github.com/SciTools/iris): A powerful, format-agnostic, and community-driven Python library for analysing and visualising Earth science data. 
+
+- [Hydrointerp](https://github.com/mullenkamp/hydrointerp): A Python package for interpolating hydrologic data. 
+ 
+- [EFlowCalc](https://github.com/ThibHlln/eflowcalc): EFlowCalc is an open-source calculator of ecological streamflow characteristics in Python. 
+ 
+- [Hydrofunctions](https://github.com/mroberge/hydrofunctions): A suite of convenience functions for working with hydrology data in an interactive Python session.
+ 
+- [Shyft](https://gitlab.com/shyft-os): It is the open-source toolbox for the energy-market domain, funded and supported by Statkraft. 
+
+- [Hydroshare](https://github.com/hydroshare/hydroshare): HydroShare is a collaborative website for better access to data and models in the hydrologic sciences.
+
+- [Hydrobox](https://github.com/VForWaTer/hydrobox): Hydrological preprocessing and analysis toolbox build upon pandas and numpy
+
+- [Wetland](https://github.com/giswqs/wetland): It is a toolset for mapping surface water and wetland hydrological dynamics using fine-resolution aerial imagery within Google Earth Engine (GEE).
+
+- [iRONS](https://github.com/AndresPenuela/iRONS): iRONS (interactive Reservoir Operation Notebooks and Software) is a python package that enables the simulation, forecasting and optimisation of reservoir systems.
 
 
 ## Meteorology
