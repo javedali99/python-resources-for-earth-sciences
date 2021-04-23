@@ -1,10 +1,5 @@
 # A Collection of Python Resources for Earth Sciences
 
-|                 |                       |
-| --------------- | --------------------- |
-| **Maintainer:** | Javed Ali             |
-| **Contact:**    | javedali28@gmail.com  |
-
 
 <a href="https://twitter.com/javedali99"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter@javedali"></a>
 
@@ -185,7 +180,7 @@ If you have any comments or suggestions for additions or improvements for this r
 - [efts-python](https://github.com/csiro-hydroinformatics/efts-python): A python library for reading and writing Ensemble Forecast Time Series in netCDF files.
 
 
-### Optimization, Uncertainty, Statistic
+### Optimization, Uncertainty, Statistics
 
 - [LMFIT](https://github.com/lmfit/lmfit-py): Non-Linear Least Squares Minimization, with flexible Parameter settings, based on scipy.optimize.leastsq, and with many additional classes and methods for curve fitting. 
  
