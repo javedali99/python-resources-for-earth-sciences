@@ -3,14 +3,13 @@
 ### Content
 
 * [Geospatial](#geospatial)
-  + [Libraries](#libraries)
 * [Hydrology](#hydrology)
-  + [Libraries](#libraries)
+
 
 ---
 
 ## Geospatial
-### Libraries
+
 - [Geopandas](https://geopandas.org/index.html): GeoPandas is an open source project to make working with geospatial data in python easier. GeoPandas extends the datatypes used by pandas to allow spatial operations on geometric types.
 
 - [PySal](https://pysal.org/): A python spatial analysis library for open source and crossed platform Geospatial Data Science 
@@ -27,3 +26,5 @@
 
 
 ## Hydrology
+
+
