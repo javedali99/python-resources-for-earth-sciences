@@ -14,7 +14,7 @@ If you have any comments or suggestions for additions or improvements for this r
 
 ---
 
-### Table of Content
+### Content
 
 * [Geospatial](#geospatial)
 * [Hydrology](#hydrology)
@@ -45,16 +45,54 @@ If you have any comments or suggestions for additions or improvements for this r
 
 
 ## Hydrology
--
+- [CMF](https://github.com/philippkraft/cmf): Catchment Modelling Framework, a hydrologic modelling toolbox.
+
+- [TopoFlow](https://github.com/peckhams/topoflow): Spatial hydrologic model (D8-based, fully BMI-compliant).
+
+- [VIC](https://github.com/UW-Hydro/VIC): The Variable Infiltration Capacity (VIC) Macroscale Hydrologic Model. 
+
+- [Xanthos](https://github.com/JGCRI/xanthos): Xanthos is an open-source hydrologic model, written in Python, designed to quantify and analyze global water availability.
+
+- [WRF-Hydro](https://github.com/NCAR/wrf_hydro_py): wrfhydrpy is a Python API for the WRF-Hydro modelling system. 
+
+- [EXP-HYDRO](https://github.com/sopanpatil/exp-hydro): EXP-HYDRO is a catchment scale hydrological model that operates at a daily time-step.  It takes as inputs the daily values of precipitation, air temperature, and potential evapotranspiration, and simulates daily streamflow at the catchment outlet. 
+
+- [RRMPG](https://github.com/kratzert/RRMPG): Rainfall-Runoff modelling playground. 
+
+- [LHMP](https://github.com/hydrogo/LHMP): Lumped Hydrological Models Playground. 
+
+- [SMARTPy](https://github.com/ThibHlln/smartpy): Python implementation of the rainfall-runoff model SMART 
+
+- [PyStream](https://github.com/martibosch/pystream): Python implementation of the STREAM hydrological rainfall-runoff model. 
+
+- [HydrPy](https://github.com/hydpy-dev/hydpy): A framework for the development and application of hydrological models based on Python. 
+
+- [Catchmod](https://pypi.org/project/pycatchmod/): CATCHMOD is widely used rainfall runoff model in the United Kingdom. It was introduced by Wilby (1994).
+
+- [wflow](https://github.com/openstreams/wflow): wflow consists of a set of Python programs that can be run on the command line and perform hydrological simulations. The models are based on the PCRaster Python framework 
+
+- [PyTOPKAPI](https://github.com/sahg/PyTOPKAPI): PyTOPKAPI is a BSD licensed Python library implementing the TOPKAPI Hydrological model (Liu and Todini, 2002).
+
+- [mhmpy](https://github.com/MuellerSeb/mhmpy): A Python-API for the mesoscale Hydrological Model.
+
+- [SuperflexPy](https://github.com/dalmo1991/superflexPy): A new open source framework for building conceptual hydrological models 
+
+- [NeuralHydrology](https://github.com/neuralhydrology/neuralhydrology): Python library to train neural networks with a strong focus on hydrological applications
 
 
 ## Seismology
 - [Madagascar](http://www.ahay.org/wiki/Installation): Multi-dimensional data processing suite
+
 - [ObsPy](https://github.com/obspy/obspy/wiki): Framework for reading, writing and processing seismic and seismological data
+
 - [Bruges](https://github.com/agile-geoscience/bruges/tree/master/bruges): Various geophysical equations and tools
+
 - [Segyio](https://github.com/equinor/segyio): Fast library for seismic SEGY files
+
 - [Pyrocko](https://github.com/pyrocko/pyrocko): Seismology toolkit
+
 - [rsudp](https://github.com/raspishake/rsudp): Continuous ObsPy-based visual display, sudden motion monitoring, and historical replay of Raspberry Shake data
+
 - [SeismicZFP](https://github.com/equinor/seismic-zfp): Convert SEG-Y/ZGY files to compressed [SGZ files](https://github.com/equinor/seismic-zfp/blob/master/docs/file-specification.md) & retrieve arbitrary sub-volumes from these, fast
 
 
