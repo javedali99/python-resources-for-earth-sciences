@@ -18,6 +18,7 @@ If you have any comments or suggestions for additions or improvements for this r
 
 * [Geospatial Analysis](#geospatial-analysis)
 * [Hydrology](#hydrology)
+  + [Data Collection](#data-collection)
   + [Hydrological Modelling](#hydrological-modelling)
   + [Groundwater Modelling](#groundwater-modelling)
   + [Time Series Analysis](#time-series-analysis)
@@ -57,6 +58,22 @@ If you have any comments or suggestions for additions or improvements for this r
 - [Lidar](https://github.com/giswqs/lidar): Terrain and hydrological analysis based on LiDAR-derived digital elevation models (DEM).
 
 ## Hydrology
+
+### Data Collection
+
+- [HKVFEWSPY](https://github.com/HKV-products-services/hkvfewspy): Connection to the DelftFEWS servers 
+
+- [Openradar](https://github.com/nens/openradar): Library for processing a set of dutch, german and belgian precipitation radars into calibrated composites. 
+
+- [Ecohydrolib](https://github.com/selimnairb/EcohydroLib): Libraries and command-line scripts for performing ecohydrology data preparation workflows. 
+
+- [Ulmo](https://github.com/ulmo-dev/ulmo/): Clean, simple and fast access to public hydrology and climatology data.
+
+- [PyHIS](https://pypi.org/project/pyhis/): It is a python library for querying CUAHSI*-HIS** web services
+
+- [Wetterdienst](https://github.com/earthobservations/wetterdienst): Python Toolset For Accessing Weather Data From German Weather Service
+
+
 
 ### Hydrological Modelling
 
