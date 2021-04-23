@@ -18,6 +18,7 @@ If you have any comments or suggestions for additions or improvements for this r
 
 * [Geospatial](#geospatial)
 * [Hydrology](#hydrology)
+* [Seismology](#seismology)
 
 
 ---
@@ -38,12 +39,16 @@ If you have any comments or suggestions for additions or improvements for this r
 
 - [geemap](https://geemap.org/): A Python package for interactive mapping with Google Earth Engine, `ipyleaflet`, and `ipywidgets`.
 
+- [geonotebook](https://github.com/OpenGeoscience/geonotebook): Jupyter notebook extension for geospatial visualization and analysis developed by NASA
+
+- [Verde](https://github.com/fatiando/verde): It is a Python library for processing spatial data (bathymetry, geophysics surveys, etc) and interpolating it on regular grids (i.e., gridding).
+
 
 ## Hydrology
 -
 
 
-## Seismic and Seismology
+## Seismology
 - [Madagascar](http://www.ahay.org/wiki/Installation): Multi-dimensional data processing suite
 - [ObsPy](https://github.com/obspy/obspy/wiki): Framework for reading, writing and processing seismic and seismological data
 - [Bruges](https://github.com/agile-geoscience/bruges/tree/master/bruges): Various geophysical equations and tools
