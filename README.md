@@ -20,7 +20,8 @@ If you have any comments or suggestions for additions or improvements for this r
 * [Hydrology](#hydrology)
   + [Hydrological Modelling](#hydrological-modelling)
   + [Groundwater Modelling](#groundwater-modelling)
-  + [Time Series Analysis](time-series-analysis)
+  + [Time Series Analysis](#time-series-analysis)
+  + [Optimization, Uncertainty, Statistics](#optimization-uncertainty-statistics)
 * [Meteorology](#meteorology)
 * [Seismology](#seismology)
 
@@ -50,9 +51,9 @@ If you have any comments or suggestions for additions or improvements for this r
 - [PcRaster](http://pcraster.geo.uu.nl/): It is a collection of software targeted at the development and deployment of spatio-temporal environmental models. 
 
 - [PyGeoprocessing](https://pypi.org/project/pygeoprocessing/): A Python/Cython based library that provides a set of commonly used raster, vector, and hydrological operations for GIS processing. 
-- 
+
 - [Pysheds](https://github.com/mdbartos/pysheds): Simple and fast watershed delineation in python.
-- 
+
 - [Lidar](https://github.com/giswqs/lidar): Terrain and hydrological analysis based on LiDAR-derived digital elevation models (DEM).
 
 ## Hydrology
@@ -134,7 +135,29 @@ If you have any comments or suggestions for additions or improvements for this r
 - [htimeseries](https://github.com/openmeteo/htimeseries)| This module provides the HTimeseries class, which is a layer on top of pandas, offering a little more functionality.
 
 
+### Optimization, Uncertainty, Statistics
+
+- [LMFIT](https://github.com/lmfit/lmfit-py): Non-Linear Least Squares Minimization, with flexible Parameter settings, based on scipy.optimize.leastsq, and with many additional classes and methods for curve fitting. 
+ 
+- [SPOTpy](https://github.com/thouska/spotpy): A Statistical Parameter Optimization Tool for Python. 
+
+- [PyGLUE](http://code.activestate.com/pypm/pyglue/): Generalised Likelihood Uncertainty Estimation (GLUE) Framework. 
+
+- [Pyemu](https://github.com/jtwhite79/pyemu): A python modules for model-independent uncertainty analyses, data-worth analyses, and interfacing with PEST(++). 
+
+- [HPGL](http://hpgl.github.io/hpgl/): High Performance Geostatistics Library. 
+
+- [HydroErr](https://github.com/BYU-Hydroinformatics/HydroErr): Goodness of Fit metrics for use in comparison studies, specifically in the field of hydrology. 
+
+- [Climate-indices](https://github.com/monocongo/climate_indices): Climate indices for drought monitoring, community reference implementations in Python. 
+
+- [HydroLM](https://github.com/mullenkamp/HydroLM): The HydroLM package contains a class and functions for automating linear regressions OLS for hydrologists.
+
+- [PySDI](https://bitbucket.org/pysdi/pysdi/src/master/): It is a set of open source scripts that compute non-parametric standardized drought indices (SDI) using raster data sets as input data.
+
+
 ## Meteorology
+
 - [MetPy](https://github.com/Unidata/MetPy): It is a collection of tools in Python for reading, visualizing and performing calculations with weather data. 
 
 - [PyEto](https://github.com/woodcrafty/PyETo): It is a Python library for calculating reference crop evapotranspiration (ETo), sometimes referred to as potential evapotranspiration (PET). The library provides numerous functions for estimating missing meteorological data. 
@@ -155,6 +178,7 @@ If you have any comments or suggestions for additions or improvements for this r
 
 
 ## Seismology
+
 - [Madagascar](http://www.ahay.org/wiki/Installation): Multi-dimensional data processing suite
 
 - [ObsPy](https://github.com/obspy/obspy/wiki): Framework for reading, writing and processing seismic and seismological data
