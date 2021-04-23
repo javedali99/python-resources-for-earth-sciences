@@ -260,6 +260,13 @@ If you have any comments or suggestions for additions or improvements for this r
 
 - [rainymotion](https://github.com/hydrogo/rainymotion): Python library for radar-based precipitation nowcasting based on optical flow techniques.
 
+- [Metview](https://github.com/ecmwf/metview-python): Python interface to Metview, a meteorological workstation and batch system for accessing, examining, manipulating and visualising meteorological data.
+
+- [IMPROVER](https://github.com/metoppv/improver): It is a library of algorithms for meteorological post-processing.
+
+- [JAMS](https://github.com/mcuntz/jams_python): It is a general Python package offering miscellaneous functions in different categories, such as reading different file formats, julian date routines, or meteorological functions.
+
+
 </br>
 
 ## Seismology
