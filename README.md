@@ -62,6 +62,8 @@ If you have any comments or suggestions for additions or improvements for this r
 
 - [Pysheds](https://github.com/mdbartos/pysheds): Simple and fast watershed delineation in python.
 
+- [GeoDjango](https://docs.djangoproject.com/en/3.2/ref/contrib/gis/tutorial/): GeoDjango is an included contrib module for Django that turns it into a world-class geographic Web framework. GeoDjango strives to make it as simple as possible to create geographic Web applications, like location-based services.
+
 - [Lidar](https://github.com/giswqs/lidar): Terrain and hydrological analysis based on LiDAR-derived digital elevation models (DEM).
 
 - [PYWR](https://github.com/pywr/pywr): Spatial allocation tool 
