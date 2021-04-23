@@ -64,6 +64,8 @@ If you have any comments or suggestions for additions or improvements for this r
 
 - [PYWR](https://github.com/pywr/pywr): Spatial allocation tool 
 
+- [ParTerra-Python](https://gitlab.com/deltares/parterra/parterra-python): The Participatory Terrain model deploys an algorithm to fuse together data from OpenStreetMap (OSM) and any base elevation dataset to create a high-resolution digital terrain model for any area in the world.
+
 - [salem](https://salem.readthedocs.io/en/latest/): Adds geolocalised subsetting, masking, and plotting operations to xarray's data structures via accessors
 
 - [Regionmask](https://regionmask.readthedocs.io/en/stable/): Plotting and creation of masks of spatial regions
