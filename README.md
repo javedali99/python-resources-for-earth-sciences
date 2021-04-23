@@ -1,4 +1,4 @@
-# A Collection of Python Resources for Earth Sciences
+# Python Resources for Earth Sciences (Hydrology, Meteorology, Geospatial, Climatology etc.)
 
 
 <a href="https://twitter.com/javedali99"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter@javedali"></a>
@@ -45,6 +45,8 @@ If you have any comments or suggestions for additions or improvements for this r
 - [Fiona](https://github.com/Toblerity/Fiona): It reads and writes geographic data files and thereby helps Python programmers integrate geographic information systems with other computer systems.
 
 - [geemap](https://geemap.org/): A Python package for interactive mapping with Google Earth Engine, `ipyleaflet`, and `ipywidgets`.
+
+- [Awesome Earth Engine](https://github.com/giswqs/Awesome-GEE): A curated list of Google Earth Engine resources includng many python libraries 
 
 - [geonotebook](https://github.com/OpenGeoscience/geonotebook): Jupyter notebook extension for geospatial visualization and analysis developed by NASA
 
@@ -295,6 +297,10 @@ If you have any comments or suggestions for additions or improvements for this r
 - [windspharm](https://ajdawson.github.io/windspharm/index.html): Python Spherical harmonic wind analysis
 
 - [wrf-python](https://wrf-python.readthedocs.io/en/latest/): Python A collection of diagnostic and interpolation routines for use with output of the Weather Research and Forecasting (WRF-ARW) Model
+
+- [scikit-downscale](https://github.com/pangeo-data/scikit-downscale): Statistical downscaling and postprocessing models for climate and weather model simulations.
+
+- [Awesome-EarthObservation-Code](https://github.com/acgeospatial/awesome-earthobservation-code): A curated list of awesome tools, tutorials, code, helpful projects, links, stuff about Earth Observation and Geospatial stuff!
 
 
 </br>
