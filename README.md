@@ -4,6 +4,8 @@
 
 * [Geospatial](#geospatial)
   + [Libraries](#libraries)
+* [Hydrology](#hydrology)
+  + [Libraries](#libraries)
 
 ---
 
@@ -24,3 +26,4 @@
 - [geemap](https://geemap.org/): A Python package for interactive mapping with Google Earth Engine, `ipyleaflet`, and `ipywidgets`.
 
 
+## Hydrology
