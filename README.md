@@ -1,9 +1,9 @@
 # A Collection of Python Resources for Earth Sciences
 
-|                 |                                             |
-| --------------- | ------------------------------------------- |
-| **Maintainer:** | Javed Ali   |
-| **Contact:**    | javedali28@gmail.com                  |
+|                 |                       |
+| --------------- | --------------------- |
+| **Maintainer:** | Javed Ali             |
+| **Contact:**    | javedali28@gmail.com  |
 
 
 <div>
