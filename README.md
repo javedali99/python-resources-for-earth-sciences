@@ -18,6 +18,7 @@ If you have any comments or suggestions for additions or improvements for this r
 
 * [Geospatial](#geospatial)
 * [Hydrology](#hydrology)
+* [Meteorology](#meteorology)
 * [Seismology](#seismology)
 
 
@@ -78,6 +79,26 @@ If you have any comments or suggestions for additions or improvements for this r
 - [SuperflexPy](https://github.com/dalmo1991/superflexPy): A new open source framework for building conceptual hydrological models 
 
 - [NeuralHydrology](https://github.com/neuralhydrology/neuralhydrology): Python library to train neural networks with a strong focus on hydrological applications
+
+
+## Meteorology
+- [MetPy](https://github.com/Unidata/MetPy): It is a collection of tools in Python for reading, visualizing and performing calculations with weather data. 
+
+- [PyEto](https://github.com/woodcrafty/PyETo): It is a Python library for calculating reference crop evapotranspiration (ETo), sometimes referred to as potential evapotranspiration (PET). The library provides numerous functions for estimating missing meteorological data. 
+
+- [Improver](https://github.com/metoppv/improver): It is a library of algorithms for meteorological post-processing and verification. 
+
+- [MetSim](https://github.com/UW-Hydro/MetSim): It is a meteorological simulator and forcing disaggregator for hydrologic modeling and climate applications. 
+
+- [MELODIST](https://github.com/kristianfoerster/melodist): It is an open-source toolbox written in Python for disaggregating daily meteorological time series to hourly time steps. 
+
+- [PyCat](https://github.com/wegener-center/pyCAT): Climate Analysis Tool written in python 
+
+- [PySteps](https://github.com/pySTEPS/pysteps): It is a community-driven initiative for developing and maintaining an easy to use, modular, free and open source Python framework for short-term ensemble prediction systems. 
+
+- [Evaporation](https://github.com/openmeteo/evaporation): Calculation of evaporation and transpiration. 
+
+- [rainymotion](https://github.com/hydrogo/rainymotion): Python library for radar-based precipitation nowcasting based on optical flow techniques.
 
 
 ## Seismology
