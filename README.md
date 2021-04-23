@@ -38,6 +38,8 @@ If you have any comments or suggestions for additions or improvements for this r
 
 - [PySal](https://pysal.org/): A python spatial analysis library for open source and crossed platform Geospatial Data Science 
 
+- [MovingPandas](https://anitagraser.github.io/movingpandas/): MovingPandas implements a Trajectory class and corresponding methods based on GeoPandas. It provides trajectory data structures and functions for analysis and visualization.
+
 - [Shapely](https://shapely.readthedocs.io/en/latest/): Shapely is a Python package for manipulation and analysis of planar geometric objects. It is based on the widely deployed `GEOS` (the engine of PostGIS) and `JTS` libraries.
 
 - [Rasterio](https://rasterio.readthedocs.io/en/latest/): Rasterio is a `GDAL` and Numpy-based Python library designed to make your work with geospatial raster data more productive, more fun — more Zen. It is a highly useful module for raster processing which you can use for reading and writing several different raster formats in Python. Python automatically registers all known `GDAL` drivers for reading supported formats when importing the module.
