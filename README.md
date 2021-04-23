@@ -12,7 +12,7 @@ If you have any comments or suggestions for additions or improvements for this r
 
 ---
 
-### Content
+## Content
 
 * [Geospatial Analysis](#geospatial-analysis)
 * [Hydrology](#hydrology)
@@ -28,7 +28,7 @@ If you have any comments or suggestions for additions or improvements for this r
 
 ---
 
-## Geospatial Analysis
+# Geospatial Analysis
 
 - [Geopandas](https://geopandas.org/index.html): GeoPandas is an open source project to make working with geospatial data in python easier. GeoPandas extends the datatypes used by pandas to allow spatial operations on geometric types.
 
@@ -88,7 +88,7 @@ If you have any comments or suggestions for additions or improvements for this r
 
 </br>
 
-## Hydrology
+# Hydrology
 
 ### Data Collection
 
@@ -266,7 +266,7 @@ If you have any comments or suggestions for additions or improvements for this r
 
 </br>
 
-## Meteorology
+# Meteorology
 
 - [MetPy](https://github.com/Unidata/MetPy): It is a collection of tools in Python for reading, visualizing and performing calculations with weather data. 
 
@@ -299,7 +299,7 @@ If you have any comments or suggestions for additions or improvements for this r
 
 </br>
 
-## Climatology
+# Climatology
 
 - [climlab](https://climlab.readthedocs.io/en/latest/): Process-oriented climate modeling
 
@@ -320,7 +320,7 @@ If you have any comments or suggestions for additions or improvements for this r
 
 </br>
 
-## Seismology
+# Seismology
 
 - [Madagascar](http://www.ahay.org/wiki/Installation): Multi-dimensional data processing suite
 
