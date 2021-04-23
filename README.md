@@ -40,5 +40,17 @@ If you have any comments or suggestions for additions or improvements for this r
 
 
 ## Hydrology
+-
+
+
+## Seismic and Seismology
+- [Madagascar](http://www.ahay.org/wiki/Installation): Multi-dimensional data processing suite
+- [ObsPy](https://github.com/obspy/obspy/wiki): Framework for reading, writing and processing seismic and seismological data
+- [Bruges](https://github.com/agile-geoscience/bruges/tree/master/bruges): Various geophysical equations and tools
+- [Segyio](https://github.com/equinor/segyio): Fast library for seismic SEGY files
+- [Pyrocko](https://github.com/pyrocko/pyrocko): Seismology toolkit
+- [rsudp](https://github.com/raspishake/rsudp): Continuous ObsPy-based visual display, sudden motion monitoring, and historical replay of Raspberry Shake data
+- [SeismicZFP](https://github.com/equinor/seismic-zfp): Convert SEG-Y/ZGY files to compressed [SGZ files](https://github.com/equinor/seismic-zfp/blob/master/docs/file-specification.md) & retrieve arbitrary sub-volumes from these, fast
+
 
 
