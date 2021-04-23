@@ -6,7 +6,7 @@
 
 <div>
 
-This repository contains information about python libraries broadly relevant to Earth Sciences (Hydrology, Meteorology, Geospatial etc.). Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. 
+This repository contains information about python libraries broadly relevant to Earth Sciences (Hydrology, Meteorology, Geospatial, Climatology etc.). Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. 
 
 If you have any comments or suggestions for additions or improvements for this repository, submit an issue , or make some changes and submit a pull request. If you can’t contribute on GitHub, [send me an email](mailto:javedali28@gmail.com). If you have an issue with one of the libraries discussed below, please contact the maintainer of that library.
 
@@ -22,6 +22,7 @@ If you have any comments or suggestions for additions or improvements for this r
   + [Time Series Analysis](#time-series-analysis)
   + [Optimization, Uncertainty, Statistics](#optimization-uncertainty-statistics)
 * [Meteorology](#meteorology)
+* [Climatology](#climatology)
 * [Seismology](#seismology)
 
 
@@ -58,6 +59,31 @@ If you have any comments or suggestions for additions or improvements for this r
 - [Lidar](https://github.com/giswqs/lidar): Terrain and hydrological analysis based on LiDAR-derived digital elevation models (DEM).
 
 - [PYWR](https://github.com/pywr/pywr): Spatial allocation tool 
+
+- [salem](https://salem.readthedocs.io/en/latest/): Adds geolocalised subsetting, masking, and plotting operations to xarray's data structures via accessors
+
+- [Regionmask](https://regionmask.readthedocs.io/en/stable/): Plotting and creation of masks of spatial regions
+
+- [xshape](https://xshape.readthedocs.io/en/latest/): Tools for working with shapefiles, topographies, and polygons in xarray
+
+- [Collocate](https://github.com/cistools/collocate): Collocate xarray trajectories in arbitrary physical dimensions
+
+- [HoloViews](http://holoviews.org/): Library designed to make data analysis and visualization seamless and simple
+
+- [GeoViews](http://geoviews.org/): Library that makes it easy to explore and visualize geographical, meteorological, and oceanographic datasets, such as those used in weather, climate, and remote sensing research
+
+- [Datashader](https://github.com/pyviz/datashader): Graphics pipeline system for creating meaningful representations of large datasets quickly and flexibly
+
+- [Panel](https://panel.pyviz.org/): Create custom interactive web apps and dashboards by connecting user-defined widgets to plots, images, tables, or text
+
+- [hvPlot](https://hvplot.pyviz.org/): A high-level plotting API for the PyData ecosystem built on HoloViews
+
+- [EarthSim](https://earthsim.pyviz.org/): Tools for working with and visualizing environmental simulations
+
+- [Cartopy](https://scitools.org.uk/cartopy/docs/latest/): Easy cartographic (maps) data visualization.
+
+- [Geoviews](http://geo.holoviews.org/): Explore and visualize geographic data using HoloViews.
+
 
 
 </br>
@@ -266,6 +292,31 @@ If you have any comments or suggestions for additions or improvements for this r
 
 - [JAMS](https://github.com/mcuntz/jams_python): It is a general Python package offering miscellaneous functions in different categories, such as reading different file formats, julian date routines, or meteorological functions.
 
+- [windspharm](https://ajdawson.github.io/windspharm/index.html): Python Spherical harmonic wind analysis
+
+- [wrf-python](https://wrf-python.readthedocs.io/en/latest/): Python A collection of diagnostic and interpolation routines for use with output of the Weather Research and Forecasting (WRF-ARW) Model
+
+
+</br>
+
+## Climatology
+
+- [climlab](https://climlab.readthedocs.io/en/latest/): Process-oriented climate modeling
+
+- [aospy](https://aospy.readthedocs.io/en/stable/): Automated analysis and management of gridded climate data
+
+- [Oocgcm](https://oocgcm.readthedocs.io/en/latest/): Analysis of large gridded geophysical datasets
+
+- [Pangaea](https://pangaea.readthedocs.io/en/latest/): xarray extension for gridded land surface & weather model output
+
+- [xgcm](https://xgcm.readthedocs.io/en/latest/): Extends the xarray data model to understand finite volume grid cells (common in General Circulation Models) and provides interpolation and difference operations for such grids
+
+- [OpenClimateGIS](https://www.earthsystemcog.org/projects/openclimategis/): Geospatial manipulation, subsetting, computation, and translation of spatiotemporal climate data
+
+- [climpred](https://climpred.readthedocs.io/en/stable/): xarray wrapper for analysis of ensemble forecast models for climate prediction
+
+- [pyOWM](https://github.com/csparpa/pyowm): PyOWM is a client Python wrapper library for OpenWeatherMap (OWM) web APIs
+
 
 </br>
 
@@ -284,6 +335,8 @@ If you have any comments or suggestions for additions or improvements for this r
 - [rsudp](https://github.com/raspishake/rsudp): Continuous ObsPy-based visual display, sudden motion monitoring, and historical replay of Raspberry Shake data
 
 - [SeismicZFP](https://github.com/equinor/seismic-zfp): Convert SEG-Y/ZGY files to compressed [SGZ files](https://github.com/equinor/seismic-zfp/blob/master/docs/file-specification.md) & retrieve arbitrary sub-volumes from these, fast
+
+
 
 
 
