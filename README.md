@@ -33,6 +33,8 @@ If you have any comments or suggestions for additions or improvements for this r
 
 - [Geopandas](https://geopandas.org/index.html): GeoPandas is an open source project to make working with geospatial data in python easier. GeoPandas extends the datatypes used by pandas to allow spatial operations on geometric types.
 
+- [whitebox](https://github.com/giswqs/whitebox-python): The whitebox Python package is built on WhiteboxTools, an advanced geospatial data analysis platform. WhiteboxTools can be used to perform common geographical information systems (GIS) analysis operations, such as cost-distance analysis, distance buffering, and raster reclassification.
+
 - [PySal](https://pysal.org/): A python spatial analysis library for open source and crossed platform Geospatial Data Science 
 
 - [Shapely](https://shapely.readthedocs.io/en/latest/): Shapely is a Python package for manipulation and analysis of planar geometric objects. It is based on the widely deployed `GEOS` (the engine of PostGIS) and `JTS` libraries.
