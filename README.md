@@ -69,6 +69,8 @@ If you have any comments or suggestions for additions or improvements for this r
 
 - [HKVFEWSPY](https://github.com/HKV-products-services/hkvfewspy): Connection to the DelftFEWS servers 
 
+- [HyRiver](https://github.com/cheginit/HyRiver): HyRiver is a software stack consisting of six Python libraries that are designed to aid in watershed analysis through web services. This project includes hydrology and climatology data within the US.
+
 - [Openradar](https://github.com/nens/openradar): Library for processing a set of dutch, german and belgian precipitation radars into calibrated composites. 
 
 - [Ecohydrolib](https://github.com/selimnairb/EcohydroLib): Libraries and command-line scripts for performing ecohydrology data preparation workflows. 
@@ -92,6 +94,8 @@ If you have any comments or suggestions for additions or improvements for this r
 - [Xanthos](https://github.com/JGCRI/xanthos): Xanthos is an open-source hydrologic model, written in Python, designed to quantify and analyze global water availability.
 
 - [WRF-Hydro](https://github.com/NCAR/wrf_hydro_py): wrfhydrpy is a Python API for the WRF-Hydro modelling system. 
+
+- [pyDEM](https://github.com/creare-com/pydem): PyDEM is a package for topographic (terrain) analysis. It takes in digital elevation model (DEM) rasters, and it outputs quantities like slope, aspect, upstream area, and topographic wetness index.
 
 - [EXP-HYDRO](https://github.com/sopanpatil/exp-hydro): EXP-HYDRO is a catchment scale hydrological model that operates at a daily time-step.  It takes as inputs the daily values of precipitation, air temperature, and potential evapotranspiration, and simulates daily streamflow at the catchment outlet. 
 
