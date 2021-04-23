@@ -86,6 +86,12 @@ If you have any comments or suggestions for additions or improvements for this r
 
 - [ERA5-tools](https://github.com/loicduffar/ERA5-tools): Python scripts to download and view ERA5 climatologic data, as well as to extract time series (hourly to monthly data on many atmospheric and land-surface parameters)
 
+- [CAMELS-AUS](https://github.com/csiro-hydroinformatics/camels-aus-py): Python package to easily load and use the CAMELS-AUS dataset
+
+- [BoM Water](https://github.com/csiro-hydroinformatics/pybomwater): This package has been developed to access to the BoM Water Data Sensor Observation Service (SOS). With a goal to easily and efficiently integrate data into scientific workflows.
+
+- [Eco-Data Manage Toolkit](https://github.com/cayolopesbc/eco-data-toolkit): It is a Python toolkit to facilitate data management for hydrology/limnology applications.
+
 
 
 ### Hydrological Modelling
@@ -130,6 +136,12 @@ If you have any comments or suggestions for additions or improvements for this r
 
 - [hidrocomp](https://github.com/clebsonpy/HidroComp): Python library for hydrological data analysis
 
+- [PyFlo](https://github.com/benjiyamin/pyflo): It is an open-source Python library for performing hydraulic and hydrology stormwater analysis. Features include network hydraulic grade analysis and time/iteration based storage and flood routing simulations.
+
+- [HydroFunctions](https://github.com/mroberge/hydrofunctions): A suite of convenience functions for working with hydrology data in an interactive Python session.
+
+- [pySTEPS](https://github.com/pySTEPS/pysteps): It is an open-source and community-driven Python library for probabilistic precipitation nowcasting, i.e. short-term ensemble prediction systems.
+
 
 ### Groundwater Modelling
 
@@ -170,8 +182,10 @@ If you have any comments or suggestions for additions or improvements for this r
 
 - [htimeseries](https://github.com/openmeteo/htimeseries)| This module provides the HTimeseries class, which is a layer on top of pandas, offering a little more functionality.
 
+- [efts-python](https://github.com/csiro-hydroinformatics/efts-python): A python library for reading and writing Ensemble Forecast Time Series in netCDF files.
 
-### Optimization, Uncertainty, Statistics
+
+### Optimization, Uncertainty, Statistic
 
 - [LMFIT](https://github.com/lmfit/lmfit-py): Non-Linear Least Squares Minimization, with flexible Parameter settings, based on scipy.optimize.leastsq, and with many additional classes and methods for curve fitting. 
  
@@ -190,6 +204,8 @@ If you have any comments or suggestions for additions or improvements for this r
 - [HydroLM](https://github.com/mullenkamp/HydroLM): The HydroLM package contains a class and functions for automating linear regressions OLS for hydrologists.
 
 - [PySDI](https://bitbucket.org/pysdi/pysdi/src/master/): It is a set of open source scripts that compute non-parametric standardized drought indices (SDI) using raster data sets as input data.
+
+- [PyForecast](https://github.com/usbr/PyForecast): It is a statistical modeling tool useful in predicting monthly and seasonal inflows and streamflows. The tool collects meterological and hydrologic datasets, analyzes hundreds to thousands of predictor subsets, and returns statistical regressions between predictors and streamflows.
 
 
 ### Miscellaneous
