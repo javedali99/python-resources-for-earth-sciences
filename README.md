@@ -1,5 +1,6 @@
 
-# Python Resources for Earth Sciences
+<!--# Python Resources for Earth Sciences-->
+![featured](https://user-images.githubusercontent.com/15319503/115857198-63b72d80-a3fb-11eb-82bc-a37b77e7521c.png)
 
 
 <a href="https://twitter.com/javedali99"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter@javedali"></a>
