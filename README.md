@@ -1,6 +1,12 @@
 # A Collection of Python Resources for Earth Sciences
 
-### Content
+This repository contains information about python libraries broadly relevant to Earth Science. Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. 
+
+If you have any comments or suggestions for additions or improvements for this repository, submit an issue , or make some changes and submit a pull request . If you can’t contribute on GitHub, [send Javed Ali an email](mailto:javedali28@gmail.com). If you have an issue with one of the packages discussed below, please contact the maintainer of that package.
+
+---
+
+### Table of Content
 
 * [Geospatial](#geospatial)
 * [Hydrology](#hydrology)
