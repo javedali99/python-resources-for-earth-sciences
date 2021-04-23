@@ -6,6 +6,9 @@
 | **Contact:**    | javedali28@gmail.com  |
 
 
+<a href="https://twitter.com/javedali99"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter@javedali"></a>
+
+
 <div>
 
 This repository contains information about python libraries broadly relevant to Earth Sciences (Hydrology, Meteorology, Geospatial etc.). Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. 
