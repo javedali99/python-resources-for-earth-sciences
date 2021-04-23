@@ -81,6 +81,8 @@ If you have any comments or suggestions for additions or improvements for this r
 
 - [Wetterdienst](https://github.com/earthobservations/wetterdienst): Python Toolset For Accessing Weather Data From German Weather Service
 
+- [ERA5-tools](https://github.com/loicduffar/ERA5-tools): Python scripts to download and view ERA5 climatologic data, as well as to extract time series (hourly to monthly data on many atmospheric and land-surface parameters)
+
 
 
 ### Hydrological Modelling
@@ -120,6 +122,10 @@ If you have any comments or suggestions for additions or improvements for this r
 - [SuperflexPy](https://github.com/dalmo1991/superflexPy): A new open source framework for building conceptual hydrological models 
 
 - [NeuralHydrology](https://github.com/neuralhydrology/neuralhydrology): Python library to train neural networks with a strong focus on hydrological applications
+
+- [StreamStats](https://github.com/earthlab/streamstats): Python package for interfacing with the USGS StreamStats API.
+
+- [hidrocomp](https://github.com/clebsonpy/HidroComp): Python library for hydrological data analysis
 
 
 ### Groundwater Modelling
