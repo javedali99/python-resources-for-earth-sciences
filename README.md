@@ -1,4 +1,4 @@
-# Python Resources for Earth Sciences (Hydrology, Meteorology, Geospatial, Climatology etc.)
+# Python Resources for Earth Sciences
 
 
 <a href="https://twitter.com/javedali99"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter@javedali"></a>
