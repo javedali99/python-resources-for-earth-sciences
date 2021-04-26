@@ -17,9 +17,9 @@
 
 <div>
 
-This repository contains information about machine learning resources and python libraries broadly relevant to Earth Sciences (Hydrology, Meteorology, Geospatial, Climatology etc.). Packages are broadly grouped according to their function; however, many have functionality that spans multiple categories. 
+This repository contains information about machine learning resources and python libraries broadly relevant to Earth Sciences (Hydrology, Meteorology, Geospatial, Climatology etc.). 
 
-If you have any comments or suggestions for additions or improvements for this repository, submit an issue , or make some changes and submit a pull request. If you can’t contribute on GitHub, [send me an email](mailto:javedali28@gmail.com). If you have an issue with one of the libraries discussed below, please contact the maintainer of that library.
+If you have any comments or suggestions for additions or improvements for this repository, submit an issue or a pull request. If you can’t contribute on GitHub, [send me an email](mailto:javedali28@gmail.com). 
 
 ---
 
