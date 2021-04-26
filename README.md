@@ -23,7 +23,7 @@ If you have any comments or suggestions for additions or improvements for this r
 
 ---
 
-## Content
+# Content
 
 * [Machine Learning summer schools and courses on Earth System Science](Machine-Learning-summer-schools-and-courses-on-Earth-System-Science)
 * [Geospatial Analysis and Mapping](#geospatial-analysis-and-mapping)
