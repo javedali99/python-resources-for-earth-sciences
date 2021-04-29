@@ -339,7 +339,7 @@ If you find these resources useful, please give a star :star:.
 
 - [Satpy](https://satpy.readthedocs.io/en/latest/): Reading, manipulating, and writing data from remote-sensing earth-observing meteorological satellite instruments.
 
-- Py-ART (https://arm-doe.github.io/pyart/): Weather radar algorithms and utilities.
+- [Py-ART](https://arm-doe.github.io/pyart/): Weather radar algorithms and utilities.
 
 - [ACT](https://arm-doe.github.io/ACT/): Toolkit for working with atmospheric time-series datasets of varying dimensions.
 
