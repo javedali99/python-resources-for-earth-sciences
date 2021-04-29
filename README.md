@@ -374,6 +374,14 @@ If you find these resources useful, please give a star :star:.
 
 - [climate-indices](https://climate-indices.readthedocs.io/en/latest/): Various climate index algorithms relating to precipitation and temperature.
 
+- [wrf-python](https://wrf-python.readthedocs.io/en/latest/): A collection of diagnostic and interpolation routines for use with output from the Weather Research and Forecasting (WRF-ARW) Model.
+
+- [climt](https://climt.readthedocs.io/en/latest/): Climate modelling and diagnostics toolkit.
+
+- [pyrcel](https://github.com/darothen/pyrcel): Adiabatic cloud parcel model for studying aerosol activation.
+
+- [PyCLES](https://github.com/pressel/pycles): Atmospheric large eddy simulation infrastructure designed to simulate boundary layer clouds and deep convection.
+
 
 </br>
 
