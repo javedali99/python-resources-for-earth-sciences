@@ -355,6 +355,8 @@ If you find these resources useful, please give a star :star:.
 
 - [oceanwaves-python](https://github.com/openearth/oceanwaves-python): This toolbox provides a generic data storage object for ocean waves data (OceanWaves).
 
+- [UTide](https://github.com/wesleybowman/UTide): Python re-implementation of the Matlab package UTide.
+
 
 </br>
 
