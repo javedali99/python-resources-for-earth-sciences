@@ -327,6 +327,16 @@ If you find these resources useful, please give a star :star:.
 
 - [Awesome-EarthObservation-Code](https://github.com/acgeospatial/awesome-earthobservation-code): A curated list of awesome tools, tutorials, code, helpful projects, links, stuff about Earth Observation and Geospatial stuff!
 
+- [Satpy](https://satpy.readthedocs.io/en/latest/): Reading, manipulating, and writing data from remote-sensing earth-observing meteorological satellite instruments.
+
+- Py-ART (https://arm-doe.github.io/pyart/): Weather radar algorithms and utilities.
+
+- [ACT](https://arm-doe.github.io/ACT/): Toolkit for working with atmospheric time-series datasets of varying dimensions.
+
+- [PyDSD](http://josephhardinee.github.io/PyDSD/): Utilities for working with disdrometer data.
+
+- [pyPI](https://github.com/dgilford/pyPI): Tropical cyclone potential intensity calculations.
+
 
 </br>
 
@@ -348,6 +358,12 @@ If you find these resources useful, please give a star :star:.
 
 - [pyOWM](https://github.com/csparpa/pyowm): PyOWM is a client Python wrapper library for OpenWeatherMap (OWM) web APIs
 
+- [climpred](https://climpred.readthedocs.io/en/stable/): Verification of weather and climate forecasts.
+
+- [climtas](https://climtas.readthedocs.io/en/latest/): Climtas is a package for working with large climate analyses. It focuses on the time domain with custom functions for Xarray and Dask data.
+
+- [climate-indices](https://climate-indices.readthedocs.io/en/latest/): Various climate index algorithms relating to precipitation and temperature.
+
 
 </br>
 
@@ -356,6 +372,18 @@ If you find these resources useful, please give a star :star:.
 - [oceanwaves-python](https://github.com/openearth/oceanwaves-python): This toolbox provides a generic data storage object for ocean waves data (OceanWaves).
 
 - [UTide](https://github.com/wesleybowman/UTide): Python re-implementation of the Matlab package UTide.
+
+- [PyFerret](https://ferret.pmel.noaa.gov/Ferret/documentation/pyferret): Quick exploration of oceanographic data.
+
+- [windspharm](https://ajdawson.github.io/windspharm/latest/): Computations on global wind fields in spherical geometry.
+
+- [cmocean](https://matplotlib.org/cmocean/): Beautiful colormaps for oceanography.
+
+- [GSW-Python](https://teos-10.github.io/GSW-Python/): Python implementation of the Thermodynamic Equation of Seawater 2010 (TEOS-10).
+
+- [argopy](https://github.com/euroargodev/argopy): Argo data access, visualisation and manipulation.
+
+- [mixsea](https://mixsea.readthedocs.io/en/latest/): Turbulence parameter estimation from fine scale oceanographic data.
 
 
 </br>
