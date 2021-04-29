@@ -89,6 +89,8 @@ If you find these resources useful, please give a star :star:.
 
 - [xshape](https://xshape.readthedocs.io/en/latest/): Tools for working with shapefiles, topographies, and polygons in xarray
 
+- [hydro-osm](https://github.com/openearth/hydro-osm): Hydro-osm is a toolbox to convert OpenStreetMap data into data layers that can be readily used for hydrological and hydraulic modelling.
+
 - [Collocate](https://github.com/cistools/collocate): Collocate xarray trajectories in arbitrary physical dimensions
 
 - [HoloViews](http://holoviews.org/): Library designed to make data analysis and visualization seamless and simple
