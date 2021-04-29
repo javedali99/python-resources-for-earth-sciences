@@ -36,6 +36,7 @@ If you find these resources useful, please give a star :star:.
   + [Optimization, Uncertainty, Statistics](#optimization-uncertainty-statistics)
 * [Meteorology](#meteorology)
 * [Climatology](#climatology)
+* [Oceanography](#oceanography)
 * [Seismology](#seismology)
 
 
@@ -344,6 +345,13 @@ If you find these resources useful, please give a star :star:.
 - [climpred](https://climpred.readthedocs.io/en/stable/): xarray wrapper for analysis of ensemble forecast models for climate prediction
 
 - [pyOWM](https://github.com/csparpa/pyowm): PyOWM is a client Python wrapper library for OpenWeatherMap (OWM) web APIs
+
+
+</br>
+
+# Oceanography
+
+- [oceanwaves-python](https://github.com/openearth/oceanwaves-python): This toolbox provides a generic data storage object for ocean waves data (OceanWaves).
 
 
 </br>
