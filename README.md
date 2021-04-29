@@ -251,6 +251,8 @@ If you find these resources useful, please give a star :star:.
 
 - [PyForecast](https://github.com/usbr/PyForecast): It is a statistical modeling tool useful in predicting monthly and seasonal inflows and streamflows. The tool collects meterological and hydrologic datasets, analyzes hundreds to thousands of predictor subsets, and returns statistical regressions between predictors and streamflows.
 
+- [scikit-extremes](https://kikocorreoso.github.io/scikit-extremes/): It is a python library to perform univariate extreme value calculations.
+
 
 ### Miscellaneous
 
