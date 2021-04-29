@@ -109,6 +109,16 @@ If you find these resources useful, please give a star :star:.
 
 - [Geoviews](http://geo.holoviews.org/): Explore and visualize geographic data using HoloViews.
 
+- [xESMF](https://xesmf.readthedocs.io/en/latest/): Universal regridder for geospatial data.
+
+- [gridded](https://noaa-orr-erd.github.io/gridded/): A single way to work with results from any hydrodynamic/oceanographic model regardless of what type of grid it was computed on.
+
+- [pyResample](https://pyresample.readthedocs.io/en/latest/): Resampling geospatial image data.
+
+- [ESMPy](https://earthsystemcog.org/projects/esmpy/): Interface to the Earth System Modeling Framework (ESMF) regridding utility.
+
+- [pyproj](https://pyproj4.github.io/pyproj/stable/): Interface to PROJ (cartographic projections and coordinate transformations library).
+
 
 
 </br>
