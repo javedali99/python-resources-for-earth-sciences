@@ -119,6 +119,8 @@ If you find these resources useful, please give a star :star:.
 
 - [pyproj](https://pyproj4.github.io/pyproj/stable/): Interface to PROJ (cartographic projections and coordinate transformations library).
 
+- [here-map-widget-for-jupyter](https://here-map-widget-for-jupyter.readthedocs.io/en/latest/): Interactive Maps using HERE Maps API for JavaScript in your Jupyter Notebooks.
+
 
 
 </br>
