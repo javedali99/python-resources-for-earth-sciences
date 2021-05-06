@@ -75,6 +75,8 @@ If you find these resources useful, please give a star :star:.
 
 - [geehydro](https://github.com/giswqs/geehydro): A Python package for mapping inundation dynamics using Google Earth Engine
 
+- [earthengine-py-notebooks](https://github.com/giswqs/earthengine-py-notebooks): A collection of 360+ Jupyter Python notebook examples for using Google Earth Engine with interactive mapping
+
 - [PcRaster](http://pcraster.geo.uu.nl/): It is a collection of software targeted at the development and deployment of spatio-temporal environmental models. 
 
 - [PyGeoprocessing](https://pypi.org/project/pygeoprocessing/): A Python/Cython based library that provides a set of commonly used raster, vector, and hydrological operations for GIS processing. 
