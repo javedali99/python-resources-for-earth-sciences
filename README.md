@@ -65,6 +65,8 @@ If you find these resources useful, please give a star :star:.
 
 - [Awesome Earth Engine](https://github.com/giswqs/Awesome-GEE): A curated list of Google Earth Engine resources includng many python libraries 
 
+- [python-geospatial](https://github.com/giswqs/python-geospatial): A collection of Python packages for geospatial analysis with binder-ready notebook examples
+
 - [geonotebook](https://github.com/OpenGeoscience/geonotebook): Jupyter notebook extension for geospatial visualization and analysis developed by NASA
 
 - [Verde](https://github.com/fatiando/verde): It is a Python library for processing spatial data (bathymetry, geophysics surveys, etc) and interpolating it on regular grids (i.e., gridding).
