@@ -71,6 +71,10 @@ If you find these resources useful, please give a star :star:.
 
 - [Verde](https://github.com/fatiando/verde): It is a Python library for processing spatial data (bathymetry, geophysics surveys, etc) and interpolating it on regular grids (i.e., gridding).
 
+- [pygis](https://github.com/giswqs/pygis): pygis is a collection of Python snippets for geospatial analysis.
+
+- [geehydro](https://github.com/giswqs/geehydro): A Python package for mapping inundation dynamics using Google Earth Engine
+
 - [PcRaster](http://pcraster.geo.uu.nl/): It is a collection of software targeted at the development and deployment of spatio-temporal environmental models. 
 
 - [PyGeoprocessing](https://pypi.org/project/pygeoprocessing/): A Python/Cython based library that provides a set of commonly used raster, vector, and hydrological operations for GIS processing. 
