@@ -127,7 +127,9 @@ If you find these resources useful, please give a star :star:.
 
 - [pyproj](https://pyproj4.github.io/pyproj/stable/): Interface to PROJ (cartographic projections and coordinate transformations library).
 
-
+- [GeostatsPy](https://github.com/GeostatsGuy/GeostatsPy): GeostatsPy Python package for spatial data analytics and geostatistics. Mostly a reimplementation of GSLIB, Geostatistical Library (Deutsch and Journel, 1992) in Python.
+ 
+ - [eo-learn](https://github.com/sentinel-hub/eo-learn): Earth observation processing framework for machine learning in Python
 
 </br>
 
@@ -207,6 +209,7 @@ If you find these resources useful, please give a star :star:.
 
 - [pySTEPS](https://github.com/pySTEPS/pysteps): It is an open-source and community-driven Python library for probabilistic precipitation nowcasting, i.e. short-term ensemble prediction systems.
 
+- [Hapi](https://github.com/MAfarrag/Hapi): Hapi is an open-source Python Framework for building raster-based conceptual distributed hydrological models using HBV96 lumped model & Muskingum routing method at a catchment scale.
 
 ### Groundwater Modelling
 
