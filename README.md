@@ -130,6 +130,8 @@ If you find these resources useful, please give a star :star:.
 - [GeostatsPy](https://github.com/GeostatsGuy/GeostatsPy): GeostatsPy Python package for spatial data analytics and geostatistics. Mostly a reimplementation of GSLIB, Geostatistical Library (Deutsch and Journel, 1992) in Python.
  
  - [eo-learn](https://github.com/sentinel-hub/eo-learn): Earth observation processing framework for machine learning in Python
+ 
+ - [SciKit-GStat](https://github.com/mmaelicke/scikit-gstat): SciKit-Gstat is a scipy-styled analysis module for geostatistics.
 
 </br>
 
