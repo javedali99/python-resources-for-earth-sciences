@@ -132,6 +132,8 @@ If you find these resources useful, you can consider showing your thanks by [buy
  - [eo-learn](https://github.com/sentinel-hub/eo-learn): Earth observation processing framework for machine learning in Python
  
  - [SciKit-GStat](https://github.com/mmaelicke/scikit-gstat): SciKit-Gstat is a scipy-styled analysis module for geostatistics.
+ 
+ - [leafmap](https://leafmap.org/): Leafmap is a Python package for interactive mapping and geospatial analysis with minimal coding in a Jupyter environment.
 
 </br>
 
