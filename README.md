@@ -21,7 +21,7 @@ This repository contains a list of open-source python libraries broadly relevant
 
 If you have any comments or suggestions for additions or improvements for this repository, submit an issue or a pull request. If you can’t contribute on GitHub, [send me an email](mailto:javedali28@gmail.com). 
 
-If you find these resources useful, give this repository a star ⭐️. 
+If you find these resources useful, please give this repository a star ⭐️. 
 
  ---
 
