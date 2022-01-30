@@ -362,6 +362,7 @@ If you find these resources useful, please give this repository a star ⭐️.
 
 - [pyPI](https://github.com/dgilford/pyPI): Tropical cyclone potential intensity calculations.
 
+- [How to work with meteorological data](https://github.com/ecmwf/notebook-examples): The examples in this space should give you a good starting point how you can work with ECMWF services and data through Python using Jupyter notebooks.
 
 </br>
 
