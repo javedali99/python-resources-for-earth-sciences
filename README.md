@@ -515,7 +515,7 @@ The Python package includes functions to work with compositional data and to tra
 
 - [Thermobar](https://github.com/PennyWieser/Thermobar): Thermobar is a Mineral-Melt Equilibrium tool written in the open-source language Python3. Thermobar allows pressures, temperatures and melt water contents to be easily calculated using more than 100 popular thermobarometers. We also provide computationally-fast functions for calculating pressures and temperatures for all possible pairs of phases in equilibrium from a given sample/volcanic center (e.g., cpx-liquid, opx-liquid, two-pyroxene, two-feldspar matching).
 
-- [VESIcal](https://github.com/kaylai/VESIcal): VESIcal is a generalized python library for calculating and plotting various things related to mixed volatile ($H_2O-CO_2$) solubility in silicate melts.
+- [VESIcal](https://github.com/kaylai/VESIcal): VESIcal is a generalized python library for calculating and plotting various things related to mixed volatile (H<sub>2</sub>O-CO<sub>2</sub>) solubility in silicate melts.
  
 - [Welly](https://github.com/agile-geoscience/welly): Welly uses lasio for data input and output but hides much of it from the user. I recommend that you look at both projects before deciding if you need the "well-level" functionality that welly provides.
 Welly is a family of classes to facilitate the loading, processing, and analysis of subsurface wells and well data, such as striplogs, formation tops, well log curves, and synthetic seismograms.
