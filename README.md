@@ -509,7 +509,7 @@ The Python package includes functions to work with compositional data and to tra
  
 - [SimPEG](https://github.com/simpeg/simpeg): Simulation and Parameter Estimation in Geophysics (SimPEG) is a python package for simulation and gradient-based parameter estimation in the context of geophysical applications.
 
-- SplitPy](https://paudetseis.github.io/SplitPy): SplitPy is a teleseismic shear-wave (SKS) Splitting Toolbox based on the Matlab Tool SplitLab, developed by Wustefeld et al (2008).
+- [SplitPy](https://paudetseis.github.io/SplitPy): SplitPy is a teleseismic shear-wave (SKS) Splitting Toolbox based on the Matlab Tool SplitLab, developed by Wustefeld et al (2008).
 
 - [tdmtpy](https://github.com/LLNL/mttime): Time Domain Moment Tensor Inversion in Python (tdmtpy) is a python package developed for time domain inversion of complete seismic waveform data to obtain the seismic moment tensor. It supports deviatoric and full moment tensor inversions, and 1-D and 3-D basis Green's functions.
 
