@@ -36,6 +36,7 @@ If you find these resources useful, please give this repository a star ⭐️.
   + [Optimization, Uncertainty, Statistics](#optimization-uncertainty-statistics)
 * [Meteorology](#meteorology)
 * [Climatology](#climatology)
+* [Geology](#geology)
 * [Oceanography](#oceanography)
 * [Seismology](#seismology)
 
@@ -397,6 +398,128 @@ If you find these resources useful, please give this repository a star ⭐️.
 - [pyrcel](https://github.com/darothen/pyrcel): Adiabatic cloud parcel model for studying aerosol activation.
 
 - [PyCLES](https://github.com/pressel/pycles): Atmospheric large eddy simulation infrastructure designed to simulate boundary layer clouds and deep convection.
+
+
+</br>
+
+# Geology
+
+- [ArcGIS API for Python](https://developers.arcgis.com/python): ArcGIS API for Python is a powerful Python library for mapping, spatial analysis, data science, geospatial AI and automation.
+
+- [APSG](https://apsg.readthedocs.io): APSG defines several new Python classes to easily manage, analyze, and visualize orientational structural geology data. 
+
+- [Badlands](https://badlands.readthedocs.io): Badlands is an open-source Python-based code that can be used to simulate Basin and Landscape Dynamics. 
+
+- [BERT](http://resistivity.net/bert): Boundless Electrical Resistivity Tomography (BERT) is a software package for modelling and inversion of ERT data. It has originally been programmed as C++ apps based on the pyGIMLi core library, plus bash scripts for command line, but is increasingly using Python through pyGIMLi and pybert, not only for visualization but also for computing.
+
+- [cbsyst](https://github.com/oscarbranson/cbsyst): cbsyst is a Python module for calculating seawater carbon and boron chemistry.
+
+- [cf-python](https://github.com/NCAS-CMS/cf-python): The Python cf package is an Earth Science data analysis library that is built on a complete implementation of the CF data model.
+
+- [Devito](http://www.devitoproject.org): Devito is a Python package to implement optimized stencil computation (e.g., finite differences, image processing, machine learning) from high-level symbolic problem definitions. Devito builds on SymPy and uses automated code generation and just-in-time compilation to execute optimized computational kernels on several computer platforms, including CPUs, GPUs, and clusters thereof.
+
+- [DensityX](https://github.com/kaylai/DensityX): DensityX is a Python script that takes an excel spreadsheet containing major oxide data, T, and P for a silicate melt and outputs the density of each sample as a new excel spreadsheet.
+
+- [detritalPy](https://github.com/grsharman/detritalPy): detritalPy is a Python module for visualizing and analyzing detrital geo-thermochronologic data.
+
+- [diffusion_chronometry](https://github.com/jlubbersgeo/diffusion_chronometry): diffusion_chronometry is a repository by <a href="https://twitter.com/caldera_curator">Jordan Lubbers</a> for all things pertaining to the modelling of diffusive equilibration of trace elements in minerals. Rather than build a bunch of fancy functions, the Jupyter notebooks are built "from scratch" so as to be transparent with as much of the building of the model as possible
+
+- [EQcorrscan](https://github.com/iris-edu/pyweed): EQcorrscan is a Python package for the detection and analysis of repeating and near-repeating seismicity.
+
+- [Fastscape](https://github.com/fastscape-lem/fastscape): Fastscape is a Python package that provides a lot a small model components (i.e., processes) to use with the xarray-simlab modeling framework. Those components can readily be combined together in order to create custom Landscape Evolution Models (LEMs).
+
+- [Fatiando a Terra](https://www.fatiando.org): Fatiando a Terra develops and maintains Python packages for Geophysics data processing, modeling like VERDE (Spatial data processing and interpolation using Green's functions), harmonica (processing and modeling gravity and magnetic data), and Boule (Reference ellipsoids for geodesy and geophysics).
+
+- [FloPy](https://github.com/modflowpy/flopy): FloPy is a Python package for creating, running, and post-processing MODFLOW-Based models.
+
+- [GemGIS](https://github.com/cgre-aachen/gemgis): The aim of GemGIS is to become a bridge between conventional geoinformation systems (GIS) such as ArcGIS and QGIS, and geomodeling tools such as GemPy, allowing simpler and more automated workflows from one environment to the other.
+
+- [GemPy](https://www.gempy.org): GemPy is a tool for generating three-dimensional structural geological models in Python. It allows the user to create complex combinations of stratigraphical and structural features such as folds, faults, and unconformities. It was furthermore designed to enable probabilistic modeling to address parameter and model uncertainties.
+
+- [GeostatsPy](https://github.com/GeostatsGuy/GeostatsPy): GeostatsPy brings GSLIB: Geostatistical Library functions to Python. GSLIB is a practical and extremely robust set of code for building spatial modeling workflows.
+
+- [gprMax](https://www.gprmax.com): gprMax is open-source software that simulates electromagnetic wave propagation. It solves Maxwell’s equations in three dimensions by using the finite-difference time-domain method. gprMax was designed for modeling ground-penetrating radar but can also be used to model electromagnetic wave propagation for many other applications.
+
+- [HyVR](https://github.com/driftingtides/hyvr): The Hydrogeological Virtual Reality simulation package (HyVR) is a Python module that helps researchers and practitioners generate subsurface models with multiple scales of heterogeneity that are based on geological concepts. The simulation outputs can then be used to explore groundwater flow and solute transport behavior. This is facilitated by HyVR outputs in the input formats of common flow simulation packages. Given that each site is unique, HyVR has been designed for users to take the code and extend it to suit their particular simulation needs.
+
+- [Lasio](https://github.com/kinverarity1/lasio): Lasio is a Python package to read and write Log ASCII Standard (LAS) files, which are used for borehole data such as geophysical, geological, or petrophysical logs. It is compatible with versions 1.2 and 2.0 of the LAS file specification, published by the Canadian Well Logging Society. Support for LAS 3 is ongoing. In principle, it is designed to read as many types of LAS files as possible, including those containing common errors or non-compliant formatting.
+Sometimes we want a higher-level object, for example, to contain methods that have nothing to do with LAS files. We may want to handle other well data, such as deviation surveys, tops (aka picks), engineering data, striplogs, synthetics, and so on. This is where welly comes in. 
+
+- [Landlab](https://github.com/landlab/landlab): Landlab is an open-source Python package for numerical modeling of Earth surface dynamics. It contains (1) a gridding engine that represents the model domain and that supports regular and irregular grids; (2) a library of process components, each of which represents a physical process (e.g., generation of rain, erosion by flowing water); (3) utilities that support general numerical methods, file input and output, and visualization. In addition Landlab contains a set of Jupyter notebook tutorials that introduce core concepts and give examples of use.
+
+- [LakePy](https://github.com/ESIPFed/LakePy): LakePy is the pythonic user-centered front-end to the Global Lake Level Database. This package can instantly deliver lake water levels for some 2000+ lakes scattered across the globe.
+
+- [latools](https://latools.readthedocs.io): Laser Ablation Tools (latools) is a Python toolbox for processing Laser Ablations Mass Spectrometry (LA-MS) data.
+
+- [litholog](https://litholog.readthedocs.io): litholog is focused on providing a framework to digitize, store, plot, and analyze sedimentary graphic logs.
+
+- [Loop](https://loop3d.github.io): Loop is an open source 3D probabilistic geological and geophysical modelling platform, initiated by Geoscience Australia and the OneGeology consortium. The project is funded by Australian territory, State and Federal Geological Surveys, the Australian Research Council and the MinEx Collaborative Research Centre. It includes the Loopstructural and  map2loop  packages, minded for 3d geological modelling.
+
+- [LSDTopoTools](https://lsdtopotools.github.io): LSDTopoTools is a software package for analysing topography. Applications of these analyses span hydrology, geomorphology, soil science, ecology, and cognate fields. The serious number crunching in LSDTopoTools is done in C++ code, but the output needs to be visualised with either a GIS or python.
+ 
+
+- [MIMiC](https://github.com/DJRgeoscience/MIMiC): Melt inclusion modification corrections (MIMiC) is a program corrects melt inclusions for post-entrapment crystallization/melting (PEC/PEM) with optional corrections for Fe-Mg exchange with the host and vapor bubble growth.
+
+- [MintPy](https://github.com/insarlab/MintPy): The Miami INsar Time-series software in PYthon (MintPy) is an open-source package for Interferometric Synthetic Aperture Radar (InSAR) time series analysis. 
+
+- [MSNoise](https://github.com/ROBelgium/MSNoise): MSNoise is the first complete software package for computing and monitoring relative velocity variations using ambient seismic noise. MSNoise is a fully-integrated solution that automatically scans data archives and determines which jobs need to be done whenever the scheduled task is executed.
+
+- [MTpy](https://github.com/paudetseis/RfPy): MTpy is a Python Toolbox for Magnetotelluric (MT) Data Processing, Analysis, Modelling and Visualization. 
+
+- [PetroPy](https://github.com/toddheitmann/PetroPy): PetroPy is a python petrophysics package allowing scientific Python computing of conventional and unconventional formation evaluation. It uses lasio to read las files and includes a petrophysical workflow and a log viewer based on XML templates.
+
+- [PmagPy](https://github.com/PmagPy): The PmagPy project is a set of tools written in Python for the analysis of paleomagnetic data.
+
+- [PVGeo](https://pvgeo.org): PVGeo is an open-source Python package for geoscientific visualization and analysis harnessing an already powerful software platform: the Visualization Toolkit (VTK) and its front-end application, ParaView. 
+
+- [PyDGS](https://github.com/dbuscombe-usgs/pyDGS): PyDGS is an open-source project dedicated to provide a Python framework to compute estimates of grain size distribution using the continuous wavelet transform method.
+
+- [PyFLOWGO](https://github.com/pyflowgo/pyflowgo): PyFLOWGO is an open-source platform for simulation of channelized lava thermo-rheological properties.
+
+- [pyGIMLi](https://www.pygimli.org): pyGIMLi is an open-source library for modeling and inversion and in geophysics. The object-oriented library provides management for structured and unstructured meshes in two and three dimensions, finite-element and finite-volume solvers, various geophysical forward operators, as well as Gauss-Newton--based frameworks for constrained, joint, and fully coupled inversions with flexible regularization.
+
+- [pyGeoPressure](https://github.com/whimian/pyGeoPressure): pyGeoPressure is an open-source Python package designed for pore-pressure prediction from both well log data and seismic velocity data. Though light weight, pyGeoPressure performs the entire workflow, from data management to pressure prediction. The main features of pyGeoPressure are (1) it makes overburden (or lithostatic) pressure calculations; 2) it uses Eaton’s method and parameter optimization; 3) it uses Bowers’ method and parameter optimization; and (4) it implements a multivariate method with parameter optimization.
+
+- [PyGMT](https://www.pygmt.org): PyGMT is a Python wrapper for the Generic Mapping Tools (GMT), a command-line program widely used in the Earth Sciences. It provides capabilities for processing spatial data (gridding, filtering, masking, FFTs, etc) and making high quality plots and maps.
+
+- [Pyleoclim](https://pyleoclim-util.readthedocs.io): Pyleoclim is a Python package designed for the analysis of paleoclimate data. Pyleoclim leverages various data science libraries (numpy, pandas, scikit-learn) for time series analysis, as well as and Matplotlib and Cartopy for the creation of publication-quality figures. 
+
+- [Pyrocko](https://git.pyrocko.org/pyrocko/pyrocko): Pyrocko is an open source seismology toolbox and library. Most of Pyrocko is coded in the Python programming language, with a few parts coded in C.
+
+- [pyrolite](https://pyrolite.readthedocs.io/en/master): pyrolite is a set of tools to handle and visualize geochemical data.
+The Python package includes functions to work with compositional data and to transform geochemical variables (e.g., elements to oxides), functions for common plotting tasks (e.g., spiderplots, ternary diagrams, bivariate and ternary density diagrams), and numerous auxiliary utilities.
+
+- [PySAT](https://github.com/pysathq/pysat): PySAT is a Python toolkit, which aims at providing a simple and unified interface to a number of state-of-art Boolean satisfiability (SAT) solvers as well as to a variety of cardinality and pseudo-Boolean encodings. 
+
+- [PyWEED](https://github.com/iris-edu/pyweed): PyWEED is an application for retrieving event-based seismic data.
+
+- [PyVista](https://docs.pyvista.org): PyVista (formerly vtki) is a helper module for the Visualization Toolkit (VTK) that takes a different approach on interfacing with VTK through NumPy and direct array access. This package provides a Pythonic, well-documented interface exposing VTK’s powerful visualization backend to facilitate rapid prototyping, analysis, and visual integration of spatially referenced datasets.
+
+- [QuakeMigrate](https://github.com/QuakeMigrate/QuakeMigrate): QuakeMigrate is a Python package for automatic earthquake detection and location using waveform migration and stacking. It can be used to produce catalogues of earthquakes, including hypocentres, origin times, phase arrival picks, and local magnitude estimates, as well as rigorous estimates of the associated uncertainties.
+
+- [REDPy](https://github.com/ahotovec/REDPy): Repeating Earthquake Detector in Python (REDPy) is a tool for automated detection and analysis of repeating earthquakes in continuous data. It works without any previous assumptions of what repeating seismicity looks like (that is, does not require a template event).
+
+- [RfPy](https://github.com/paudetseis/RfPy): RfPy is a software to calculate single event-station receiver functions from the spectral deconvolution technique. 
+
+- [SediNet](https://github.com/MARDAScience/SediNet): SediNet configurable machine-learning framework for estimating either (or both) continuous and categorical variables from a photographic image of clastic sediment.
+
+- [Segyio](https://github.com/equinor/segyio): Segyio is a small LGPL licensed C library for easy interaction with SEG-Y and Seismic Unix formatted seismic data, with language bindings for Python and Matlab. Segyio is an attempt to create an easy-to-use, embeddable, community-oriented library for seismic applications. Features are added as they are needed; suggestions and contributions of all kinds are very welcome.
+
+- [SHTOOLS](https://github.com/SHTOOLS/SHTOOLS): SHTOOLS is a Fortran-95/Python library that can be used to perform spherical harmonic transforms, multitaper spectral analyses, expansions of functions into Slepian bases, and standard operations on global gravitational and magnetic field data.
+ 
+- [SimPEG](https://github.com/simpeg/simpeg): Simulation and Parameter Estimation in Geophysics (SimPEG) is a python package for simulation and gradient-based parameter estimation in the context of geophysical applications.
+
+- SplitPy](https://paudetseis.github.io/SplitPy): SplitPy is a teleseismic shear-wave (SKS) Splitting Toolbox based on the Matlab Tool SplitLab, developed by Wustefeld et al (2008).
+
+- [tdmtpy](https://github.com/LLNL/mttime): Time Domain Moment Tensor Inversion in Python (tdmtpy) is a python package developed for time domain inversion of complete seismic waveform data to obtain the seismic moment tensor. It supports deviatoric and full moment tensor inversions, and 1-D and 3-D basis Green's functions.
+
+- [Thermobar](https://github.com/PennyWieser/Thermobar): Thermobar is a Mineral-Melt Equilibrium tool written in the open-source language Python3. Thermobar allows pressures, temperatures and melt water contents to be easily calculated using more than 100 popular thermobarometers. We also provide computationally-fast functions for calculating pressures and temperatures for all possible pairs of phases in equilibrium from a given sample/volcanic center (e.g., cpx-liquid, opx-liquid, two-pyroxene, two-feldspar matching).
+
+- [VESIcal](https://github.com/kaylai/VESIcal): VESIcal is a generalized python library for calculating and plotting various things related to mixed volatile ($H_2O-CO_2$) solubility in silicate melts.
+ 
+- [Welly](https://github.com/agile-geoscience/welly): Welly uses lasio for data input and output but hides much of it from the user. I recommend that you look at both projects before deciding if you need the "well-level" functionality that welly provides.
+Welly is a family of classes to facilitate the loading, processing, and analysis of subsurface wells and well data, such as striplogs, formation tops, well log curves, and synthetic seismograms.
+
 
 
 </br>
