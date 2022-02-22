@@ -137,6 +137,8 @@ If you find these resources useful, please give this repository a star ⭐️.
  - [leafmap](https://leafmap.org/): Leafmap is a Python package for interactive mapping and geospatial analysis with minimal coding in a Jupyter environment.
  
  - [GeoWombat](https://github.com/jgrss/geowombat): Utilities for geospatial data
+ 
+ - [pyGIS](https://pygis.io/docs/a_intro.html): pyGIS is an online textbook covering all the core geospatial functionality available in Python. This includes handling vector and raster data, satellite remote sensing, machine learning and deep learning applications. 
 
 </br>
 
