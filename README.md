@@ -403,7 +403,7 @@ If you find these resources useful, please give this repository a star ⭐️.
 
 - [PyCLES](https://github.com/pressel/pycles): Atmospheric large eddy simulation infrastructure designed to simulate boundary layer clouds and deep convection.
 
-- [climpred](https://climpred.readthedocs.io/): Verification of weather and climate forecasts. 
+- [climpred](https://climpred.readthedocs.io/): `climpred` aims to be the primary package used to analyze output from initialized dynamical forecast models, ranging from short-term weather forecasts to decadal climate forecasts.
 
 
 </br>
