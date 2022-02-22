@@ -135,6 +135,8 @@ If you find these resources useful, please give this repository a star ⭐️.
  - [SciKit-GStat](https://github.com/mmaelicke/scikit-gstat): SciKit-Gstat is a scipy-styled analysis module for geostatistics.
  
  - [leafmap](https://leafmap.org/): Leafmap is a Python package for interactive mapping and geospatial analysis with minimal coding in a Jupyter environment.
+ 
+ - [GeoWombat](https://github.com/jgrss/geowombat): Utilities for geospatial data
 
 </br>
 
