@@ -261,6 +261,8 @@ If you find these resources useful, please give this repository a star ⭐️.
 
 - [efts-python](https://github.com/csiro-hydroinformatics/efts-python): A python library for reading and writing Ensemble Forecast Time Series in netCDF files.
 
+- [scikit-hts](https://scikit-hts.readthedocs.io/en/latest/readme.html#overview): Python implementation of general hierarchical time series modeling
+
 
 ### Optimization, Uncertainty, Statistics
 
@@ -284,9 +286,7 @@ If you find these resources useful, please give this repository a star ⭐️.
 
 - [PyForecast](https://github.com/usbr/PyForecast): It is a statistical modeling tool useful in predicting monthly and seasonal inflows and streamflows. The tool collects meterological and hydrologic datasets, analyzes hundreds to thousands of predictor subsets, and returns statistical regressions between predictors and streamflows.
 
-- [scikit-extremes](https://kikocorreoso.github.io/scikit-extremes/): It is a python library to perform univariate extreme value calculations.
-
-- [scikit-hts](https://scikit-hts.readthedocs.io/en/latest/readme.html#overview) 
+- [scikit-extremes](https://kikocorreoso.github.io/scikit-extremes/): It is a python library to perform univariate extreme value calculations. 
 
 - [xarrayutils](https://github.com/jbusecke/xarrayutils): Various tools for data analysis built on top of xarray and xgcm
 
