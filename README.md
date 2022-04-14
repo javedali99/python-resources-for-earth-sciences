@@ -261,6 +261,8 @@ If you find these resources useful, please give this repository a star ⭐️.
 
 - [efts-python](https://github.com/csiro-hydroinformatics/efts-python): A python library for reading and writing Ensemble Forecast Time Series in netCDF files.
 
+- [scikit-hts](https://scikit-hts.readthedocs.io/en/latest/readme.html#overview): Python implementation of general hierarchical time series modeling
+
 
 ### Optimization, Uncertainty, Statistics
 
@@ -284,7 +286,11 @@ If you find these resources useful, please give this repository a star ⭐️.
 
 - [PyForecast](https://github.com/usbr/PyForecast): It is a statistical modeling tool useful in predicting monthly and seasonal inflows and streamflows. The tool collects meterological and hydrologic datasets, analyzes hundreds to thousands of predictor subsets, and returns statistical regressions between predictors and streamflows.
 
-- [scikit-extremes](https://kikocorreoso.github.io/scikit-extremes/): It is a python library to perform univariate extreme value calculations.
+- [scikit-extremes](https://kikocorreoso.github.io/scikit-extremes/): It is a python library to perform univariate extreme value calculations. 
+
+- [xarrayutils](https://github.com/jbusecke/xarrayutils): Various tools for data analysis built on top of xarray and xgcm
+
+- [wxee](https://wxee.readthedocs.io/en/latest/): Python interface between Earth Engine and xarray for processing time series data
 
 
 ### Miscellaneous
@@ -320,6 +326,12 @@ If you find these resources useful, please give this repository a star ⭐️.
 - [Wetland](https://github.com/giswqs/wetland): It is a toolset for mapping surface water and wetland hydrological dynamics using fine-resolution aerial imagery within Google Earth Engine (GEE).
 
 - [iRONS](https://github.com/AndresPenuela/iRONS): iRONS (interactive Reservoir Operation Notebooks and Software) is a python package that enables the simulation, forecasting and optimisation of reservoir systems.
+
+- [atlite](https://github.com/PyPSA/atlite): Xarray-based Python library for converting weather data (like wind speeds, solar influx) into energy systems data.
+
+- [xmovie](https://github.com/jbusecke/xmovie): Simple way of creating beautiful movies from xarray objects.
+
+- [earthdata](https://github.com/nsidc/earthdata): Python library to search and access NASA datasets.
 
 </br>
 
@@ -375,6 +387,8 @@ If you find these resources useful, please give this repository a star ⭐️.
 
 - [climlab](https://climlab.readthedocs.io/en/latest/): Process-oriented climate modeling
 
+- [climmetlab](https://climetlab.readthedocs.io/en/latest/): Python package aiming at simplifying access to climate and meteorological datasets
+
 - [aospy](https://aospy.readthedocs.io/en/stable/): Automated analysis and management of gridded climate data
 
 - [Oocgcm](https://oocgcm.readthedocs.io/en/latest/): Analysis of large gridded geophysical datasets
@@ -405,6 +419,15 @@ If you find these resources useful, please give this repository a star ⭐️.
 
 - [climpred](https://climpred.readthedocs.io/): `climpred` aims to be the primary package used to analyze output from initialized dynamical forecast models, ranging from short-term weather forecasts to decadal climate forecasts.
 
+- [pycpt](https://bitbucket.org/py-iri/iri-pycpt/src/master/): Climate Predictability Tool, supports model output statistics (MOS), Conanical Correlation Analysis (CCA) and principal components regression (PCR), + access to many subseasonal-to-seasonal ensemble predictions (e.g., the NMME, C3S, SubX databases).
+
+- [ROCK-PCA](https://github.com/DiegoBueso/ROCK-PCA): ROtated Complex Kernel PCA for spatio-temporal analysis of earth observation data
+
+- [xMCA](https://pyxmca.readthedocs.io/en/latest/index.html): Python library for (rotated) Principal Component and Maximum Covariance Analysis
+
+- [xeof](https://github.com/nicrie/xeofs): Python library supporting rotated/multivariate EOF analysis.
+
+- [ESMvaltool](https://www.esmvaltool.org): Community diagnostic and performance metrics tool for routine evaluation of Earth system models in CMIP
 
 </br>
 
@@ -547,6 +570,8 @@ Welly is a family of classes to facilitate the loading, processing, and analysis
 - [argopy](https://github.com/euroargodev/argopy): Argo data access, visualisation and manipulation.
 
 - [mixsea](https://mixsea.readthedocs.io/en/latest/): Turbulence parameter estimation from fine scale oceanographic data.
+
+- [gcm-filters](https://gcm-filters.readthedocs.io/en/latest/): Performs spatial filtering analysis in a flexible and efficient way.
 
 
 </br>
