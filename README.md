@@ -1,14 +1,6 @@
 
 <!--# Python Resources for Earth Sciences-->
-</br>
- <p align="center">
-  <a href="https://twitter.com/javedali99"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter@javedali"></a>
-  <a href="https://www.linkedin.com/in/javedali18"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn@javedali"></a>
-  <a href="mailto:javedali28@gmail.com"><img src="https://img.shields.io/badge/gmail-D14836?&style=for-the-badge&logo=gmail&logoColor=white" alt="javedali28@gmail.com"></a>
- <a href="https://javedali.net"><img src="https://img.shields.io/badge/Website%20-%2302569B.svg?&style=for-the-badge&logo=WordPress&logoColor=white" alt="LinkedIn@javedali"></a>
-</p>
 
-</br>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/15319503/115857198-63b72d80-a3fb-11eb-82bc-a37b77e7521c.png?raw=true" alt="Python Resources for Earth Sciences"/>
@@ -23,7 +15,16 @@ If you have any comments or suggestions for additions or improvements for this r
 
 If you find these resources useful, please give this repository a star ⭐️. 
 
- ---
+***
+<h3 align="center">:mailbox: Connect with me on: :mailbox:</h3>
+<p align="center">
+  <a href="https://twitter.com/javedali99"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter@javedali"></a>
+  <a href="https://www.linkedin.com/in/javedali18"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn@javedali"></a>
+  <a href="mailto:javedali28@gmail.com"><img src="https://img.shields.io/badge/gmail-D14836?&style=for-the-badge&logo=gmail&logoColor=white" alt="javedali28@gmail.com"></a>
+ <a href="https://javedali.net"><img src="https://img.shields.io/badge/Website%20-%2302569B.svg?&style=for-the-badge&logo=WordPress&logoColor=white" alt="LinkedIn@javedali"></a>
+</p>
+ 
+ ***
 
 # Content
 
