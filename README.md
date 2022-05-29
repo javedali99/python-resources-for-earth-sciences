@@ -267,6 +267,8 @@ If you find these resources useful, please give this repository a star ⭐️.
 
 - [scikit-hts](https://scikit-hts.readthedocs.io/en/latest/readme.html#overview): Python implementation of general hierarchical time series modeling
 
+- [NeuralForecast](https://github.com/Nixtla/neuralforecast): NeuralForecast is a Python library for time series forecasting with deep learning models. It includes benchmark datasets, data-loading utilities, evaluation functions, statistical tests, univariate model benchmarks and SOTA models implemented in PyTorch and PyTorchLightning.
+
 
 ### Optimization, Uncertainty, Statistics
 
