@@ -405,11 +405,9 @@ If you find these resources useful, please give this repository a star ⭐️.
 
 - [OpenClimateGIS](https://www.earthsystemcog.org/projects/openclimategis/): Geospatial manipulation, subsetting, computation, and translation of spatiotemporal climate data
 
-- [climpred](https://climpred.readthedocs.io/en/stable/): xarray wrapper for analysis of ensemble forecast models for climate prediction
+- [climada-python](https://github.com/CLIMADA-project/climada_python): CLIMADA stands for CLIMate ADAptation and is a probabilistic natural catastrophe impact model, that also calculates averted damage (benefit) thanks to adaptation measures of any kind (from grey to green infrastructure, behavioural, etc.).
 
 - [pyOWM](https://github.com/csparpa/pyowm): PyOWM is a client Python wrapper library for OpenWeatherMap (OWM) web APIs
-
-- [climpred](https://climpred.readthedocs.io/en/stable/): Verification of weather and climate forecasts.
 
 - [climtas](https://climtas.readthedocs.io/en/latest/): Climtas is a package for working with large climate analyses. It focuses on the time domain with custom functions for Xarray and Dask data.
 
