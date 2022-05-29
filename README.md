@@ -143,6 +143,8 @@ If you find these resources useful, please give this repository a star ⭐️.
  - [pyGIS](https://pygis.io/docs/a_intro.html): pyGIS is an online textbook covering all the core geospatial functionality available in Python. This includes handling vector and raster data, satellite remote sensing, machine learning and deep learning applications. 
  
  - [PyGMT](https://www.pygmt.org/latest/index.html): PyGMT is a library for processing geospatial and geophysical data and making publication quality maps and figures. It provides a Pythonic interface for the Generic Mapping Tools (GMT), a command-line program widely used in the Earth Sciences.
+  
+ - [geospatial-machine-learning](https://github.com/deepVector/geospatial-machine-learning): A curated list of resources focused on Machine Learning in Geospatial Data Science.
 
 </br>
 
