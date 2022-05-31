@@ -435,6 +435,8 @@ If you find these resources useful, please give this repository a star ⭐️.
 
 - [ESMvaltool](https://www.esmvaltool.org): Community diagnostic and performance metrics tool for routine evaluation of Earth system models in CMIP
 
+- [nctoolkit](https://nctoolkit.readthedocs.io/en/latest/): The Python package nctoolkit provides fast and easy analysis of netCDF data, with a focus on the analysis and post-processing of climate and ocean model data.
+
 </br>
 
 # Geology
