@@ -226,6 +226,9 @@ If you find these resources useful, please give this repository a star ⭐️.
 
 - [Hapi](https://github.com/MAfarrag/Hapi): Hapi is an open-source Python Framework for building raster-based conceptual distributed hydrological models using HBV96 lumped model & Muskingum routing method at a catchment scale.
 
+- [rabpro](https://github.com/VeinsOfTheEarth/rabpro): River and basin profiler. A package to delineate watershed basins and compute attribute statistics using Google Earth Engine.
+
+
 ### Groundwater Modelling
 
 - [Flopy](https://github.com/modflowpy/flopy): The Python interface to MODFLOW. 
