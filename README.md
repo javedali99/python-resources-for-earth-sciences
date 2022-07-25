@@ -274,6 +274,9 @@ If you find these resources useful, please give this repository a star ⭐️.
 
 - [NeuralForecast](https://github.com/Nixtla/neuralforecast): NeuralForecast is a Python library for time series forecasting with deep learning models. It includes benchmark datasets, data-loading utilities, evaluation functions, statistical tests, univariate model benchmarks and SOTA models implemented in PyTorch and PyTorchLightning.
 
+- [HyperTS](hyperts.readthedocs.io): A Full-Pipeline Automated Time Series (AutoTS) Analysis Toolkit. Easy-to-use, powerful, unified full pipeline automated time series toolkit. Supports forecasting, classification and regression.
+
+
 
 ### Optimization, Uncertainty, Statistics
 
