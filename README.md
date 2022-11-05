@@ -15,7 +15,10 @@ This repository contains a list of open-source python libraries broadly relevant
 
 If you have any comments or suggestions for additions or improvements for this repository, submit an issue or a pull request. If you can’t contribute on GitHub, [send me an email](mailto:javedali28@gmail.com). 
 
-If you find these resources useful, please give this repository a star ⭐️. 
+If you find these resources useful, please give this repository a star ⭐️ and you can also buy me some coffee ☕️. 
+<p align="center">
+<a href="https://www.buymeacoffee.com/javedali99" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 200px !important;" ></a>
+</p>
 
 ***
 <h3 align="center">:mailbox: Connect with me :mailbox:</h3>
