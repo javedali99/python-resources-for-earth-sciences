@@ -17,7 +17,7 @@ If you have any comments or suggestions for additions or improvements for this r
 
 If you find these resources useful, please give this repository a star ⭐️ and you can also buy me some coffee ☕️. 
 <p align="center">
-<a href="https://www.buymeacoffee.com/javedali99" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 200px !important;" ></a>
+<a href="https://www.buymeacoffee.com/javedali99" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="width: 150px;" ></a>
 </p>
 
 ***
