@@ -231,7 +231,7 @@ If you find these resources useful, please give this repository a star ⭐️ an
 
 - [rabpro](https://github.com/VeinsOfTheEarth/rabpro): River and basin profiler. A package to delineate watershed basins and compute attribute statistics using Google Earth Engine.
 
-- [SynxFlow](https://synxflow.readthedocs.io/en/latest/about.html): SynxFlow is an open-source model capable of dynamically simulating flood inundation and debris flows using CUDA-enabled GPUs. It supports large-scale simulates driven by direct rainfall and/or river inflows.
+- [SynxFlow](https://synxflow.readthedocs.io/en/latest/about.html): SynxFlow is an open-source model capable of dynamically simulating overland flows, flood inundations, and debris flows using CUDA-enabled GPUs. It can be driven by direct rainfall and/or river inflows.
 
 ### Groundwater Modelling
 
