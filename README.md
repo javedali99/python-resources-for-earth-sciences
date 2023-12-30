@@ -611,6 +611,7 @@ Welly is a family of classes to facilitate the loading, processing, and analysis
 - [SeismicZFP](https://github.com/equinor/seismic-zfp): Convert SEG-Y/ZGY files to compressed [SGZ files](https://github.com/equinor/seismic-zfp/blob/master/docs/file-specification.md) & retrieve arbitrary sub-volumes from these, fast
 
 
+# Earth System Science
 
-
+- ESBMTK - The Earth Sciences Box Modeling Toolkit: ESBMTK is a python library that aims to simplify typical box modeling projects in the Earth-Sciences. It uses a declarative approach to describe models, and abstracts typical modeling tasks like gas-exchange and carbonate dissolution through python classes. See the manual at https://esbmtk.readthedocs.io/en/latest for installation instructions usage, and example code.
 
