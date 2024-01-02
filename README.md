@@ -44,6 +44,7 @@ If you find these resources useful, please give this repository a star ⭐️ an
 * [Geology](#geology)
 * [Oceanography](#oceanography)
 * [Seismology](#seismology)
+* [Earth System Science](#earth-system-science)
 
 
 ---
@@ -616,5 +617,5 @@ Welly is a family of classes to facilitate the loading, processing, and analysis
 
 # Earth System Science
 
-- ESBMTK - The Earth Sciences Box Modeling Toolkit: ESBMTK is a python library that aims to simplify typical box modeling projects in the Earth-Sciences. It uses a declarative approach to describe models, and abstracts typical modeling tasks like gas-exchange and carbonate dissolution through python classes. See the manual at https://esbmtk.readthedocs.io/en/latest for installation instructions usage, and example code.
+- [ESBMTK](https://esbmtk.readthedocs.io/en/latest): The Earth Sciences Box Modeling Toolkit (ESBMTK) is a Python library that aims to simplify typical box modeling projects in the Earth-Sciences. It uses a declarative approach to describe models, and abstracts typical modeling tasks like gas exchange and carbonate dissolution through Python classes. See the manual at https://esbmtk.readthedocs.io/en/latest for installation instructions usage, and example code.
 
