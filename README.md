@@ -11,7 +11,7 @@
 
 <div>
 
-This repository contains a list of open-source python libraries broadly relevant to Earth Sciences (Hydrology, Meteorology, Geospatial, Climatology, Oceanography etc.). The libraries are broadly grouped according to their function; however, many have functionality that spans multiple categories.
+This repository contains a list of open-source Python libraries broadly relevant to Earth Sciences (Hydrology, Meteorology, Geospatial, Climatology, Oceanography, etc.). The libraries are broadly grouped according to their function; however, many have functionality that spans multiple categories.
 
 If you have any comments or suggestions for additions or improvements for this repository, submit an issue or a pull request. If you can’t contribute on GitHub, [send me an email](mailto:javedali28@gmail.com). 
 
@@ -232,6 +232,9 @@ If you find these resources useful, please give this repository a star ⭐️ an
 - [rabpro](https://github.com/VeinsOfTheEarth/rabpro): River and basin profiler. A package to delineate watershed basins and compute attribute statistics using Google Earth Engine.
 
 - [SynxFlow](https://synxflow.readthedocs.io/en/latest/about.html): SynxFlow is an open-source model capable of dynamically simulating overland flows, flood inundations, and debris flows using CUDA-enabled GPUs. It can be driven by direct rainfall and/or river inflows.
+  
+- [xHydro](https://xhydro.readthedocs.io): Hydrological analysis library built with xarray
+
 
 ### Groundwater Modelling
 
