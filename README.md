@@ -614,6 +614,7 @@ Welly is a family of classes to facilitate the loading, processing, and analysis
 
 - [SeismicZFP](https://github.com/equinor/seismic-zfp): Convert SEG-Y/ZGY files to compressed [SGZ files](https://github.com/equinor/seismic-zfp/blob/master/docs/file-specification.md) & retrieve arbitrary sub-volumes from these, fast
 
+</br>
 
 # Earth System Science
 
