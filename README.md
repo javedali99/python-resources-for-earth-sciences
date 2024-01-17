@@ -620,3 +620,10 @@ Welly is a family of classes to facilitate the loading, processing, and analysis
 
 - [ESBMTK](https://esbmtk.readthedocs.io/en/latest): The Earth Sciences Box Modeling Toolkit (ESBMTK) is a Python library that aims to simplify typical box modeling projects in the Earth-Sciences. It uses a declarative approach to describe models, and abstracts typical modeling tasks like gas exchange and carbonate dissolution through Python classes. See the manual at https://esbmtk.readthedocs.io/en/latest for installation instructions usage, and example code.
 
+</br>
+
+<!--
+# Repo Activity
+
+![Alt](https://repobeats.axiom.co/api/embed/80e51881e2c2214d5124454095e27d2151ff3e5c.svg "Repobeats analytics image")
+-->
