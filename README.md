@@ -574,6 +574,8 @@ The Python package includes functions to work with compositional data and to tra
 - [Welly](https://github.com/agile-geoscience/welly): Welly uses lasio for data input and output but hides much of it from the user. I recommend that you look at both projects before deciding if you need the "well-level" functionality that welly provides.
 Welly is a family of classes to facilitate the loading, processing, and analysis of subsurface wells and well data, such as striplogs, formation tops, well log curves, and synthetic seismograms.
 
+- [Invert4Geom](https://invert4geom.readthedocs.io/en/latest/): `Invert4Geom` is an open-source library for performing 3D geometric (structural) gravity inversions. While there are great existing tools for performing gravity inversions for subsurface density (e.g. PyGIMLi, SimPEG) there are few, if any, open-source software for inverting for geometry. This is useful for modelling the Moho, the sediment-basement contact, or bathymetry.
+
 
 
 </br>
