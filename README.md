@@ -291,7 +291,9 @@ and you can also buy me some coffee ☕️.
 
 ### Optimization, Uncertainty, Statistics
 
-- [LMFIT](https://github.com/lmfit/lmfit-py): Non-Linear Least Squares Minimization, with flexible Parameter settings, based on scipy.optimize.leastsq, and with many additional classes and methods for curve fitting. 
+- [LMFIT](https://github.com/lmfit/lmfit-py): Non-Linear Least Squares Minimization, with flexible Parameter settings, based on scipy.optimize.leastsq, and with many additional classes and methods for curve fitting.
+  
+- [nsEVDx](https://github.com/Nischalcs50/nsEVDx): A Python library for modeling non-stationary extreme value distributions (GEV & GPD) using `scipy` and `numpy`, featuring Bayesian and frequentist methods, MCMC samplers, diagnostics, and linear/polynomial regression on arbitrary covariates.
  
 - [SPOTpy](https://github.com/thouska/spotpy): A Statistical Parameter Optimization Tool for Python. 
 
