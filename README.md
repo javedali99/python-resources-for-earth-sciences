@@ -455,6 +455,7 @@ and you can also buy me some coffee ☕️.
 - [ESMvaltool](https://www.esmvaltool.org): Community diagnostic and performance metrics tool for routine evaluation of Earth system models in CMIP
 
 - [nctoolkit](https://nctoolkit.readthedocs.io/en/latest/): The Python package nctoolkit provides fast and easy analysis of netCDF data, with a focus on the analysis and post-processing of climate and ocean model data.
+- [CINEI](https://github.com/Luyikeka/cinei): Integrates global and regional anthropogenic emission inventories (CEDS, EDGAR, HTAP, MEIC) into sector-resolved, model-ready gridded NetCDF with consistent NMVOC speciation for atmospheric chemistry and air-quality models.
 
 </br>
 
