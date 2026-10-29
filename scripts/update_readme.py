@@ -276,16 +276,53 @@ def block_stats(total):
     )
 
 
+# Width of the README content area on github.com (repo page, desktop).
+GRID_WIDTH = 830
+GRID_COLS = 4
+
+
+def grid_column_widths():
+    """Pixel width for each column of the domain grid.
+
+    GitHub renders tables only as wide as their content, so the grid would
+    not fill the page on its own. Each column gets the width its longest
+    name needs on one line (about 8.6 px per character in GitHub's bold
+    16 px font, plus 26 px cell padding). Columns are otherwise equal, and
+    together they add up to GRID_WIDTH, so long names like "Geospatial
+    Analysis and Mapping" get a wider column instead of wrapping.
+    """
+    cols = [DOMAINS[c::GRID_COLS] for c in range(GRID_COLS)]
+    need = [max(len(d["name"]) * 8.6 + 26 for d in col) for col in cols]
+    # "Water-filling": columns are as equal as possible; a column whose
+    # name needs more than the equal share keeps its own width, and the
+    # remaining space is split evenly between the others.
+    fixed = set()
+    while True:
+        free = [c for c in range(GRID_COLS) if c not in fixed]
+        share = (GRID_WIDTH - sum(need[c] for c in fixed)) / max(1, len(free))
+        wide = [c for c in free if need[c] > share]
+        if not wide:
+            break
+        fixed.update(wide)
+    return [int(need[c]) if c in fixed else int(share) for c in range(GRID_COLS)]
+
+
 def block_grid():
-    """Clickable domain cards: icon tile, name and count badge, 4 per row."""
+    """Clickable domain cards: icon tile, name and count badge, 4 per row.
+
+    Names use non-breaking spaces so each stays on one line, and every
+    cell carries its column's pixel width so the grid spans the page.
+    """
+    widths = grid_column_widths()
     rows = ["<table>"]
-    for i in range(0, len(DOMAINS), 4):
+    for i in range(0, len(DOMAINS), GRID_COLS):
         rows.append("  <tr>")
-        for d in DOMAINS[i:i + 4]:
+        for c, d in enumerate(DOMAINS[i:i + GRID_COLS]):
+            name = d["name"].replace(" ", "&nbsp;")
             rows.append(
-                f'    <td align="center" width="25%" valign="top">\n'
+                f'    <td align="center" width="{widths[c]}" valign="top">\n'
                 f'      <a href="#{d["id"]}"><img src="assets/icons/{d["id"]}.svg" width="56" height="56" alt="{d["name"]} icon"></a><br>\n'
-                f'      <a href="#{d["id"]}"><b>{d["name"]}</b></a><br>\n'
+                f'      <a href="#{d["id"]}"><b>{name}</b></a><br>\n'
                 f'      <img src="{badge(libs(d["count"]), d["color"])}" alt="{libs(d["count"])}">\n'
                 f"    </td>"
             )

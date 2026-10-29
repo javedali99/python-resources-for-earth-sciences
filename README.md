@@ -73,44 +73,44 @@
 <!-- AUTO:grid:START -->
 <table>
   <tr>
-    <td align="center" width="25%" valign="top">
+    <td align="center" width="169" valign="top">
       <a href="#climatology"><img src="assets/icons/climatology.svg" width="56" height="56" alt="Climatology icon"></a><br>
       <a href="#climatology"><b>Climatology</b></a><br>
       <img src="https://img.shields.io/badge/-23%20libraries-D9822B?style=flat-square" alt="23 libraries">
     </td>
-    <td align="center" width="25%" valign="top">
+    <td align="center" width="198" valign="top">
       <a href="#earth-system-science"><img src="assets/icons/earth-system-science.svg" width="56" height="56" alt="Earth System Science icon"></a><br>
-      <a href="#earth-system-science"><b>Earth System Science</b></a><br>
+      <a href="#earth-system-science"><b>Earth&nbsp;System&nbsp;Science</b></a><br>
       <img src="https://img.shields.io/badge/-1%20library-0E9F8E?style=flat-square" alt="1 library">
     </td>
-    <td align="center" width="25%" valign="top">
+    <td align="center" width="169" valign="top">
       <a href="#geology"><img src="assets/icons/geology.svg" width="56" height="56" alt="Geology icon"></a><br>
       <a href="#geology"><b>Geology</b></a><br>
       <img src="https://img.shields.io/badge/-57%20libraries-A0603A?style=flat-square" alt="57 libraries">
     </td>
-    <td align="center" width="25%" valign="top">
+    <td align="center" width="292" valign="top">
       <a href="#geospatial-analysis-and-mapping"><img src="assets/icons/geospatial-analysis-and-mapping.svg" width="56" height="56" alt="Geospatial Analysis and Mapping icon"></a><br>
-      <a href="#geospatial-analysis-and-mapping"><b>Geospatial Analysis and Mapping</b></a><br>
+      <a href="#geospatial-analysis-and-mapping"><b>Geospatial&nbsp;Analysis&nbsp;and&nbsp;Mapping</b></a><br>
       <img src="https://img.shields.io/badge/-48%20libraries-3F8F4E?style=flat-square" alt="48 libraries">
     </td>
   </tr>
   <tr>
-    <td align="center" width="25%" valign="top">
+    <td align="center" width="169" valign="top">
       <a href="#hydrology"><img src="assets/icons/hydrology.svg" width="56" height="56" alt="Hydrology icon"></a><br>
       <a href="#hydrology"><b>Hydrology</b></a><br>
       <img src="https://img.shields.io/badge/-91%20libraries-1F6FB5?style=flat-square" alt="91 libraries">
     </td>
-    <td align="center" width="25%" valign="top">
+    <td align="center" width="198" valign="top">
       <a href="#meteorology"><img src="assets/icons/meteorology.svg" width="56" height="56" alt="Meteorology icon"></a><br>
       <a href="#meteorology"><b>Meteorology</b></a><br>
       <img src="https://img.shields.io/badge/-21%20libraries-5B5BD6?style=flat-square" alt="21 libraries">
     </td>
-    <td align="center" width="25%" valign="top">
+    <td align="center" width="169" valign="top">
       <a href="#oceanography"><img src="assets/icons/oceanography.svg" width="56" height="56" alt="Oceanography icon"></a><br>
       <a href="#oceanography"><b>Oceanography</b></a><br>
       <img src="https://img.shields.io/badge/-9%20libraries-0B4F8A?style=flat-square" alt="9 libraries">
     </td>
-    <td align="center" width="25%" valign="top">
+    <td align="center" width="292" valign="top">
       <a href="#seismology"><img src="assets/icons/seismology.svg" width="56" height="56" alt="Seismology icon"></a><br>
       <a href="#seismology"><b>Seismology</b></a><br>
       <img src="https://img.shields.io/badge/-7%20libraries-C2413B?style=flat-square" alt="7 libraries">
