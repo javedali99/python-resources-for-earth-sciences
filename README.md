@@ -40,11 +40,9 @@
 
 **Python Resources for Earth Sciences** is a curated directory of open-source Python libraries for observing, modelling and understanding the Earth. It gathers tools for water, weather, climate, rocks, oceans, earthquakes and maps in one place, so you spend less time searching for the right package and more time doing science.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/about-stats-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/about-stats-light.svg">
-  <img src="assets/about-stats-light.svg" alt="Collection summary: libraries, domains, Hydrology subfields and alphabetical order" width="100%">
-</picture>
+<p align="center">
+  <img src="assets/about-stats.svg" alt="Collection summary: libraries, domains, Hydrology subfields and alphabetical order" width="100%">
+</p>
 
 <table>
   <tr>
@@ -150,11 +148,9 @@
 
 ## <img src="assets/icons/at-a-glance.svg" width="30" height="30" align="top"> The Collection at a Glance
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/collection-map-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/collection-map-light.svg">
-  <img src="assets/collection-map-light.svg" alt="Map of the collection: each domain with its icon, number of libraries and share, plus Hydrology subfields" width="100%">
-</picture>
+<p align="center">
+  <img src="assets/collection-map.svg" alt="Map of the collection: each domain with its icon, number of libraries and share, plus Hydrology subfields" width="100%">
+</p>
 
 <br>
 
@@ -655,11 +651,7 @@ Contributions are always welcome. To add a library:
 
 <p align="center">
   <a href="https://star-history.com/#javedali99/python-resources-for-earth-sciences&Date">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=javedali99/python-resources-for-earth-sciences&type=Date&theme=dark">
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=javedali99/python-resources-for-earth-sciences&type=Date">
-      <img alt="Star history chart" src="https://api.star-history.com/svg?repos=javedali99/python-resources-for-earth-sciences&type=Date" width="80%">
-    </picture>
+    <img alt="Star history chart" src="https://api.star-history.com/svg?repos=javedali99/python-resources-for-earth-sciences&type=Date" width="80%">
   </a>
 </p>
 

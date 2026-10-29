@@ -28,11 +28,14 @@ What it does on every run
 
    * ``icons/<id>.svg``                       icon tiles for every domain,
                                               Hydrology subfield and section
-   * ``about-stats-{light,dark}.svg``         About section stat tiles
-   * ``collection-map-{light,dark}.svg``      hub-and-spoke map of domains
+   * ``about-stats.svg``                      About section stat tiles
+   * ``collection-map.svg``                   hub-and-spoke map of domains
    * ``connect/<id>.svg``                     contact cards in Connect
 
-   Light and dark versions are chosen by GitHub through ``<picture>``.
+   The graphics use one light design (like the banner) with their own
+   background, so they look the same in GitHub's light and dark themes.
+   A ``<picture>``/``prefers-color-scheme`` switch is avoided on purpose:
+   it follows the computer's appearance setting, not the GitHub theme.
 
 Adding a new domain or subfield
 -------------------------------
@@ -61,10 +64,6 @@ THEMES = {
     "light": {
         "panel": "#F5F8FB", "card": "#FFFFFF", "ink": "#0B2545", "muted": "#5B6B82",
         "line": "#DCE4EE", "track": "#E8EEF5", "accent": "#12A39A",
-    },
-    "dark": {
-        "panel": "#0F1621", "card": "#161E2B", "ink": "#E8EEF6", "muted": "#93A1B5",
-        "line": "#2A3546", "track": "#223044", "accent": "#2DD4BF",
     },
 }
 FONT = "'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
@@ -558,9 +557,9 @@ def main(readme=README, assets=ASSETS):
         changed.append(write(os.path.join(assets, "connect", f"{c['id']}.svg"), svg_connect_card(c)))
     for sec in SECTION_ICONS:
         changed.append(write(os.path.join(assets, "icons", f"{sec['id']}.svg"), svg_icon_file(sec)))
-    for mode, t in THEMES.items():
-        changed.append(write(os.path.join(assets, f"about-stats-{mode}.svg"), svg_about_stats(t, total)))
-        changed.append(write(os.path.join(assets, f"collection-map-{mode}.svg"), svg_collection_map(t, total)))
+    t = THEMES["light"]
+    changed.append(write(os.path.join(assets, "about-stats.svg"), svg_about_stats(t, total)))
+    changed.append(write(os.path.join(assets, "collection-map.svg"), svg_collection_map(t, total)))
 
     print(f"{total} libraries in {len(DOMAINS)} domains; "
           + ", ".join(f"{d['short']} {d['count']}" for d in DOMAINS))
