@@ -507,43 +507,55 @@ def svg_collection_map(t, total):
     return svg_doc(W, H, "".join(body), f"Map of {total} libraries across {len(DOMAINS)} domains")
 
 
-CARD_W, CARD_H = 400, 112      # drawn size (2x for sharp rendering)
-CARD_SHOW = 200                # width shown in the README, 4 fit on one row
+CARD_H = 120          # drawn height (2x for sharp rendering, shown at 60 px)
+CARD_TEXT_X = 112     # where the label and handle start
+CARD_PAD_R = 30       # space after the longest text line
+HANDLE_SIZE = 30      # handle font size when drawn (15 px on the page)
+LABEL_SIZE = 19       # label font size when drawn (about 10 px on the page)
+
+
+def card_width(c):
+    """Drawn width of a contact card, sized to its own text.
+
+    Uses rough widths for bold system sans-serif (0.58 x font size per
+    character for the handle; the spaced capitals of the label need about
+    0.86 x). Cards are therefore as wide as their content, not equal.
+    """
+    handle_w = len(c["handle"]) * HANDLE_SIZE * 0.58
+    label_w = len(c["label"]) * LABEL_SIZE * 0.86
+    return int(CARD_TEXT_X + max(handle_w, label_w) + CARD_PAD_R)
 
 
 def svg_connect_card(c):
     """Compact contact card in the same quiet style as the About tiles.
 
-    White card with a thin border, a small logo tile in the service's own
-    colour, a muted uppercase label and the handle in banner navy. Drawn
-    at 400 x 112 and shown at 200 px wide, so four cards share one row.
-    The handle shrinks to fit when it is long (the email address).
+    White card with a thin border, a logo tile in the service's own
+    colour, a muted uppercase label and the handle in banner navy.
+    Drawn at 2x and shown at half size in the README.
     """
     t = THEMES["light"]
-    W, H = CARD_W, CARD_H
+    W, H = card_width(c), CARD_H
     kind, val = c["logo"]
-    tile, tx, ty = 64, 22, (H - 64) / 2
+    tile, tx, ty = 72, 22, (H - 72) / 2
     if kind == "line":
-        logo = icon_group(val, tx + 12, ty + 12, tile - 24, "#FFFFFF", 2.8)
+        logo = icon_group(val, tx + 13, ty + 13, tile - 26, "#FFFFFF", 3.0)
     else:  # filled brand mark on the 24 x 24 grid
-        sc = (tile - 34) / 24
-        logo = f'<path transform="translate({tx + 17:.1f} {ty + 17:.1f}) scale({sc:.3f})" d="{val}" fill="#FFFFFF"/>'
-    text_x, text_w = 104, W - 104 - 20
-    size = min(25, text_w / (len(c["handle"]) * 0.58))
+        sc = (tile - 38) / 24
+        logo = f'<path transform="translate({tx + 19:.1f} {ty + 19:.1f}) scale({sc:.3f})" d="{val}" fill="#FFFFFF"/>'
     body = (
-        f'<rect x="1.5" y="1.5" width="{W - 3}" height="{H - 3}" rx="22" fill="{t["card"]}" stroke="{t["line"]}" stroke-width="2"/>'
-        f'<rect x="{tx}" y="{ty:.1f}" width="{tile}" height="{tile}" rx="16" fill="{c["color"]}"/>'
+        f'<rect x="1.5" y="1.5" width="{W - 3}" height="{H - 3}" rx="24" fill="{t["card"]}" stroke="{t["line"]}" stroke-width="2"/>'
+        f'<rect x="{tx}" y="{ty:.1f}" width="{tile}" height="{tile}" rx="18" fill="{c["color"]}"/>'
         + logo +
-        f'<text x="{text_x}" y="47" fill="{t["muted"]}" font-size="15" font-weight="700" letter-spacing="2.5">{escape(c["label"])}</text>'
-        f'<text x="{text_x}" y="79" fill="{t["ink"]}" font-size="{size:.1f}" font-weight="700">{escape(c["handle"])}</text>'
+        f'<text x="{CARD_TEXT_X}" y="50" fill="{t["muted"]}" font-size="{LABEL_SIZE}" font-weight="700" letter-spacing="2.6">{escape(c["label"])}</text>'
+        f'<text x="{CARD_TEXT_X}" y="88" fill="{t["ink"]}" font-size="{HANDLE_SIZE}" font-weight="700">{escape(c["handle"])}</text>'
     )
     return svg_doc(W, H, body, f'{c["name"]}: {c["handle"]}')
 
 
 def block_connect():
-    """All contact cards on one centred row."""
+    """All contact cards on one centred row, each at half its drawn width."""
     links = [
-        (f'  <a href="{c["url"]}"><img src="assets/connect/{c["id"]}.svg" width="{CARD_SHOW}" '
+        (f'  <a href="{c["url"]}"><img src="assets/connect/{c["id"]}.svg" width="{card_width(c) // 2}" '
          f'alt="{escape(c["name"])}: {escape(c["handle"])}"></a>')
         for c in CONNECT
     ]
