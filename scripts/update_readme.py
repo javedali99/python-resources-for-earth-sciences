@@ -166,19 +166,19 @@ SECTION_ICONS = [
     {"id": "star-history", "name": "Star History", "color": NAVY, "icon": "trend"},
     {"id": "connect", "name": "Connect", "color": NAVY, "icon": "chat"},
 ]
-# Contact cards for the Connect section. Brand logos (LinkedIn, X) are from
+# Compact contact cards for the Connect section. Brand logos (LinkedIn, X) are from
 # simple-icons (CC0); "line" logos reuse the stroked ICONS set.
 CONNECT = [
     {"id": "website", "name": "Website", "label": "WEBSITE", "handle": "javedali.net", "url": "https://javedali.net",
-     "from": "#0B2545", "to": "#12A39A", "logo": ("line", "globe")},
+     "color": "#14365C", "logo": ("line", "globe")},
     {"id": "linkedin", "name": "LinkedIn", "label": "LINKEDIN", "handle": "in/javedali18", "url": "https://www.linkedin.com/in/javedali18",
-     "from": "#004182", "to": "#2E8BE6", "logo": ("fill",
+     "color": "#0A66C2", "logo": ("fill",
         "M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452z")},
-    {"id": "x", "name": "X", "label": "X (TWITTER)", "handle": "@javedali99", "url": "https://twitter.com/javedali99",
-     "from": "#0F1419", "to": "#5B5BD6", "logo": ("fill",
+    {"id": "x", "name": "X", "label": "X", "handle": "@javedali99", "url": "https://twitter.com/javedali99",
+     "color": "#0F1419", "logo": ("fill",
         "M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z")},
     {"id": "email", "name": "Email", "label": "EMAIL", "handle": "javedali28@gmail.com", "url": "mailto:javedali28@gmail.com",
-     "from": "#C5221F", "to": "#F29900", "logo": ("line", "envelope")},
+     "color": "#12A39A", "logo": ("line", "envelope")},
 ]
 
 # Hydrology subfield icons, keyed by anchor id, drawn on the Hydrology blue.
@@ -504,53 +504,47 @@ def svg_collection_map(t, total):
     return svg_doc(W, H, "".join(body), f"Map of {total} libraries across {len(DOMAINS)} domains")
 
 
-def svg_connect_card(c):
-    """Gradient contact card: logo tile, small label, handle and an arrow.
+CARD_W, CARD_H = 400, 112      # drawn size (2x for sharp rendering)
+CARD_SHOW = 200                # width shown in the README, 4 fit on one row
 
-    Drawn at 640 x 176 and shown at 320 x 88 in the README, so it stays
-    sharp on high-density screens. Colours work on light and dark themes.
+
+def svg_connect_card(c):
+    """Compact contact card in the same quiet style as the About tiles.
+
+    White card with a thin border, a small logo tile in the service's own
+    colour, a muted uppercase label and the handle in banner navy. Drawn
+    at 400 x 112 and shown at 200 px wide, so four cards share one row.
+    The handle shrinks to fit when it is long (the email address).
     """
-    W, H = 640, 176
-    gid = f"g-{c['id']}"
+    t = THEMES["light"]
+    W, H = CARD_W, CARD_H
     kind, val = c["logo"]
-    tile = 112
-    tx, ty = 32, (H - tile) / 2
+    tile, tx, ty = 64, 22, (H - 64) / 2
     if kind == "line":
-        logo = icon_group(val, tx + 24, ty + 24, tile - 48, "#FFFFFF", 4.6)
+        logo = icon_group(val, tx + 12, ty + 12, tile - 24, "#FFFFFF", 2.8)
     else:  # filled brand mark on the 24 x 24 grid
-        sc = (tile - 56) / 24
-        logo = f'<path transform="translate({tx + 28:.1f} {ty + 28:.1f}) scale({sc:.3f})" d="{val}" fill="#FFFFFF"/>'
-    size = 36 if len(c["handle"]) <= 14 else 30
+        sc = (tile - 34) / 24
+        logo = f'<path transform="translate({tx + 17:.1f} {ty + 17:.1f}) scale({sc:.3f})" d="{val}" fill="#FFFFFF"/>'
+    text_x, text_w = 104, W - 104 - 20
+    size = min(25, text_w / (len(c["handle"]) * 0.58))
     body = (
-        f'<defs><linearGradient id="{gid}" x1="0" y1="0" x2="1" y2="1">'
-        f'<stop offset="0" stop-color="{c["from"]}"/><stop offset="1" stop-color="{c["to"]}"/></linearGradient>'
-        f'<clipPath id="c-{c["id"]}"><rect width="{W}" height="{H}" rx="34"/></clipPath></defs>'
-        f'<g clip-path="url(#c-{c["id"]})">'
-        f'<rect width="{W}" height="{H}" fill="url(#{gid})"/>'
-        # soft decorative rings in the corner, echoing the banner's globe lines
-        f'<circle cx="{W - 40}" cy="-10" r="120" fill="none" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="2"/>'
-        f'<circle cx="{W - 40}" cy="-10" r="170" fill="none" stroke="#FFFFFF" stroke-opacity="0.09" stroke-width="2"/>'
-        f'<circle cx="{W - 40}" cy="-10" r="220" fill="none" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="2"/>'
-        f'<rect x="{tx}" y="{ty}" width="{tile}" height="{tile}" rx="30" fill="#FFFFFF" fill-opacity="0.18"/>'
-        f'<rect x="{tx + 1}" y="{ty + 1}" width="{tile - 2}" height="{tile - 2}" rx="29" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="2"/>'
+        f'<rect x="1.5" y="1.5" width="{W - 3}" height="{H - 3}" rx="22" fill="{t["card"]}" stroke="{t["line"]}" stroke-width="2"/>'
+        f'<rect x="{tx}" y="{ty:.1f}" width="{tile}" height="{tile}" rx="16" fill="{c["color"]}"/>'
         + logo +
-        f'<text x="176" y="74" fill="#FFFFFF" fill-opacity="0.8" font-size="20" font-weight="700" letter-spacing="4">{escape(c["label"])}</text>'
-        f'<text x="176" y="122" fill="#FFFFFF" font-size="{size}" font-weight="700">{escape(c["handle"])}</text>'
-        f'<circle cx="{W - 62}" cy="{H / 2}" r="26" fill="#FFFFFF" fill-opacity="0.18"/>'
-        f'<path d="M{W - 71} {H / 2 + 9} l18 -18 M{W - 67} {H / 2 - 9} h14 v14" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>'
-        "</g>"
+        f'<text x="{text_x}" y="47" fill="{t["muted"]}" font-size="15" font-weight="700" letter-spacing="2.5">{escape(c["label"])}</text>'
+        f'<text x="{text_x}" y="79" fill="{t["ink"]}" font-size="{size:.1f}" font-weight="700">{escape(c["handle"])}</text>'
     )
     return svg_doc(W, H, body, f'{c["name"]}: {c["handle"]}')
 
 
 def block_connect():
-    """Two rows of two clickable contact cards."""
-    def link(c):
-        return (f'<a href="{c["url"]}"><img src="assets/connect/{c["id"]}.svg" width="320" '
-                f'alt="{escape(c["name"])}: {escape(c["handle"])}"></a>')
-    rows = [CONNECT[i:i + 2] for i in range(0, len(CONNECT), 2)]
-    inner = "\n  <br>\n".join("\n".join("  " + link(c) for c in row) for row in rows)
-    return f'<p align="center">\n{inner}\n</p>'
+    """All contact cards on one centred row."""
+    links = [
+        (f'  <a href="{c["url"]}"><img src="assets/connect/{c["id"]}.svg" width="{CARD_SHOW}" '
+         f'alt="{escape(c["name"])}: {escape(c["handle"])}"></a>')
+        for c in CONNECT
+    ]
+    return '<p align="center">\n' + "\n".join(links) + "\n</p>"
 
 
 def write(path, content):

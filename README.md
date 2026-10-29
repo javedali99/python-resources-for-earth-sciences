@@ -663,11 +663,10 @@ Contributions are always welcome. To add a library:
 
 <!-- AUTO:connect:START -->
 <p align="center">
-  <a href="https://javedali.net"><img src="assets/connect/website.svg" width="320" alt="Website: javedali.net"></a>
-  <a href="https://www.linkedin.com/in/javedali18"><img src="assets/connect/linkedin.svg" width="320" alt="LinkedIn: in/javedali18"></a>
-  <br>
-  <a href="https://twitter.com/javedali99"><img src="assets/connect/x.svg" width="320" alt="X: @javedali99"></a>
-  <a href="mailto:javedali28@gmail.com"><img src="assets/connect/email.svg" width="320" alt="Email: javedali28@gmail.com"></a>
+  <a href="https://javedali.net"><img src="assets/connect/website.svg" width="200" alt="Website: javedali.net"></a>
+  <a href="https://www.linkedin.com/in/javedali18"><img src="assets/connect/linkedin.svg" width="200" alt="LinkedIn: in/javedali18"></a>
+  <a href="https://twitter.com/javedali99"><img src="assets/connect/x.svg" width="200" alt="X: @javedali99"></a>
+  <a href="mailto:javedali28@gmail.com"><img src="assets/connect/email.svg" width="200" alt="Email: javedali28@gmail.com"></a>
 </p>
 <!-- AUTO:connect:END -->
 
