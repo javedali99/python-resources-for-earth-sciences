@@ -1,7 +1,7 @@
 <a id="top"></a>
 
 <p align="center">
-  <img src="assets/banner.png" alt="Python Resources for Earth Sciences" width="100%">
+  <img src="assets/banner.png?v=38c9abe8" alt="Python Resources for Earth Sciences" width="100%">
 </p>
 
 <p align="center">
@@ -36,12 +36,12 @@
 
 <a id="about"></a>
 
-## <img src="assets/icons/about.svg" width="30" height="30" align="top"> About
+## <img src="assets/icons/about.svg?v=dc1fef4c" width="30" height="30" align="top"> About
 
 **Python Resources for Earth Sciences** is a curated directory of open-source Python libraries for observing, modelling and understanding the Earth. It gathers tools for water, weather, climate, rocks, oceans, earthquakes and maps in one place, so you spend less time searching for the right package and more time doing science.
 
 <p align="center">
-  <img src="assets/about-stats.svg" alt="Collection summary: libraries, domains, Hydrology subfields and alphabetical order" width="100%">
+  <img src="assets/about-stats.svg?v=0183f89d" alt="Collection summary: libraries, domains, Hydrology subfields and alphabetical order" width="100%">
 </p>
 
 <table>
@@ -68,50 +68,50 @@
 
 <a id="browse"></a>
 
-## <img src="assets/icons/browse.svg" width="30" height="30" align="top"> Browse by Domain
+## <img src="assets/icons/browse.svg?v=78a981f5" width="30" height="30" align="top"> Browse by Domain
 
 <!-- AUTO:grid:START -->
 <table>
   <tr>
     <td align="center" width="169" valign="top">
-      <a href="#climatology"><img src="assets/icons/climatology.svg" width="56" height="56" alt="Climatology icon"></a><br>
+      <a href="#climatology"><img src="assets/icons/climatology.svg?v=dc0c0e76" width="56" height="56" alt="Climatology icon"></a><br>
       <a href="#climatology"><b>Climatology</b></a><br>
       <img src="https://img.shields.io/badge/-23%20libraries-D9822B?style=flat-square" alt="23 libraries">
     </td>
     <td align="center" width="198" valign="top">
-      <a href="#earth-system-science"><img src="assets/icons/earth-system-science.svg" width="56" height="56" alt="Earth System Science icon"></a><br>
+      <a href="#earth-system-science"><img src="assets/icons/earth-system-science.svg?v=ef3b1fd0" width="56" height="56" alt="Earth System Science icon"></a><br>
       <a href="#earth-system-science"><b>Earth&nbsp;System&nbsp;Science</b></a><br>
       <img src="https://img.shields.io/badge/-1%20library-0E9F8E?style=flat-square" alt="1 library">
     </td>
     <td align="center" width="169" valign="top">
-      <a href="#geology"><img src="assets/icons/geology.svg" width="56" height="56" alt="Geology icon"></a><br>
+      <a href="#geology"><img src="assets/icons/geology.svg?v=7efffe35" width="56" height="56" alt="Geology icon"></a><br>
       <a href="#geology"><b>Geology</b></a><br>
       <img src="https://img.shields.io/badge/-57%20libraries-A0603A?style=flat-square" alt="57 libraries">
     </td>
     <td align="center" width="292" valign="top">
-      <a href="#geospatial-analysis-and-mapping"><img src="assets/icons/geospatial-analysis-and-mapping.svg" width="56" height="56" alt="Geospatial Analysis and Mapping icon"></a><br>
+      <a href="#geospatial-analysis-and-mapping"><img src="assets/icons/geospatial-analysis-and-mapping.svg?v=347aa121" width="56" height="56" alt="Geospatial Analysis and Mapping icon"></a><br>
       <a href="#geospatial-analysis-and-mapping"><b>Geospatial&nbsp;Analysis&nbsp;and&nbsp;Mapping</b></a><br>
       <img src="https://img.shields.io/badge/-48%20libraries-3F8F4E?style=flat-square" alt="48 libraries">
     </td>
   </tr>
   <tr>
     <td align="center" width="169" valign="top">
-      <a href="#hydrology"><img src="assets/icons/hydrology.svg" width="56" height="56" alt="Hydrology icon"></a><br>
+      <a href="#hydrology"><img src="assets/icons/hydrology.svg?v=56d5acb7" width="56" height="56" alt="Hydrology icon"></a><br>
       <a href="#hydrology"><b>Hydrology</b></a><br>
       <img src="https://img.shields.io/badge/-91%20libraries-1F6FB5?style=flat-square" alt="91 libraries">
     </td>
     <td align="center" width="198" valign="top">
-      <a href="#meteorology"><img src="assets/icons/meteorology.svg" width="56" height="56" alt="Meteorology icon"></a><br>
+      <a href="#meteorology"><img src="assets/icons/meteorology.svg?v=ed956c82" width="56" height="56" alt="Meteorology icon"></a><br>
       <a href="#meteorology"><b>Meteorology</b></a><br>
       <img src="https://img.shields.io/badge/-21%20libraries-5B5BD6?style=flat-square" alt="21 libraries">
     </td>
     <td align="center" width="169" valign="top">
-      <a href="#oceanography"><img src="assets/icons/oceanography.svg" width="56" height="56" alt="Oceanography icon"></a><br>
+      <a href="#oceanography"><img src="assets/icons/oceanography.svg?v=79d137b6" width="56" height="56" alt="Oceanography icon"></a><br>
       <a href="#oceanography"><b>Oceanography</b></a><br>
       <img src="https://img.shields.io/badge/-9%20libraries-0B4F8A?style=flat-square" alt="9 libraries">
     </td>
     <td align="center" width="292" valign="top">
-      <a href="#seismology"><img src="assets/icons/seismology.svg" width="56" height="56" alt="Seismology icon"></a><br>
+      <a href="#seismology"><img src="assets/icons/seismology.svg?v=acca4e67" width="56" height="56" alt="Seismology icon"></a><br>
       <a href="#seismology"><b>Seismology</b></a><br>
       <img src="https://img.shields.io/badge/-7%20libraries-C2413B?style=flat-square" alt="7 libraries">
     </td>
@@ -146,10 +146,10 @@
 
 <a id="at-a-glance"></a>
 
-## <img src="assets/icons/at-a-glance.svg" width="30" height="30" align="top"> The Collection at a Glance
+## <img src="assets/icons/at-a-glance.svg?v=15efbc8c" width="30" height="30" align="top"> The Collection at a Glance
 
 <p align="center">
-  <img src="assets/collection-map.svg" alt="Map of the collection: each domain with its icon, number of libraries and share, plus Hydrology subfields" width="100%">
+  <img src="assets/collection-map.svg?v=85f44b99" alt="Map of the collection: each domain with its icon, number of libraries and share, plus Hydrology subfields" width="100%">
 </p>
 
 <br>
@@ -159,7 +159,7 @@
 <!-- LIBRARIES:START -->
 <a id="climatology"></a>
 
-## <img src="assets/icons/climatology.svg" width="30" height="30" align="top"> Climatology
+## <img src="assets/icons/climatology.svg?v=dc0c0e76" width="30" height="30" align="top"> Climatology
 
 <!-- AUTO:count:climatology:START -->
 <img src="https://img.shields.io/badge/-23%20libraries-D9822B?style=flat-square" alt="23 libraries">
@@ -199,7 +199,7 @@
 
 <a id="earth-system-science"></a>
 
-## <img src="assets/icons/earth-system-science.svg" width="30" height="30" align="top"> Earth System Science
+## <img src="assets/icons/earth-system-science.svg?v=ef3b1fd0" width="30" height="30" align="top"> Earth System Science
 
 <!-- AUTO:count:earth-system-science:START -->
 <img src="https://img.shields.io/badge/-1%20library-0E9F8E?style=flat-square" alt="1 library">
@@ -217,7 +217,7 @@
 
 <a id="geology"></a>
 
-## <img src="assets/icons/geology.svg" width="30" height="30" align="top"> Geology
+## <img src="assets/icons/geology.svg?v=7efffe35" width="30" height="30" align="top"> Geology
 
 <!-- AUTO:count:geology:START -->
 <img src="https://img.shields.io/badge/-57%20libraries-A0603A?style=flat-square" alt="57 libraries">
@@ -291,7 +291,7 @@
 
 <a id="geospatial-analysis-and-mapping"></a>
 
-## <img src="assets/icons/geospatial-analysis-and-mapping.svg" width="30" height="30" align="top"> Geospatial Analysis and Mapping
+## <img src="assets/icons/geospatial-analysis-and-mapping.svg?v=347aa121" width="30" height="30" align="top"> Geospatial Analysis and Mapping
 
 <!-- AUTO:count:geospatial-analysis-and-mapping:START -->
 <img src="https://img.shields.io/badge/-48%20libraries-3F8F4E?style=flat-square" alt="48 libraries">
@@ -356,7 +356,7 @@
 
 <a id="hydrology"></a>
 
-## <img src="assets/icons/hydrology.svg" width="30" height="30" align="top"> Hydrology
+## <img src="assets/icons/hydrology.svg?v=56d5acb7" width="30" height="30" align="top"> Hydrology
 
 <!-- AUTO:count:hydrology:START -->
 <img src="https://img.shields.io/badge/-91%20libraries-1F6FB5?style=flat-square" alt="91 libraries">
@@ -368,7 +368,7 @@
 
 <a id="data-collection"></a>
 
-### <img src="assets/icons/data-collection.svg" width="24" height="24" align="top"> Data Collection
+### <img src="assets/icons/data-collection.svg?v=e4808198" width="24" height="24" align="top"> Data Collection
 
 <!-- AUTO:count:data-collection:START -->
 <img src="https://img.shields.io/badge/-11%20libraries-1F6FB5?style=flat-square" alt="11 libraries">
@@ -392,7 +392,7 @@
 
 <a id="groundwater-modelling"></a>
 
-### <img src="assets/icons/groundwater-modelling.svg" width="24" height="24" align="top"> Groundwater Modelling
+### <img src="assets/icons/groundwater-modelling.svg?v=b40c968a" width="24" height="24" align="top"> Groundwater Modelling
 
 <!-- AUTO:count:groundwater-modelling:START -->
 <img src="https://img.shields.io/badge/-13%20libraries-1F6FB5?style=flat-square" alt="13 libraries">
@@ -418,7 +418,7 @@
 
 <a id="hydrological-modelling"></a>
 
-### <img src="assets/icons/hydrological-modelling.svg" width="24" height="24" align="top"> Hydrological Modelling
+### <img src="assets/icons/hydrological-modelling.svg?v=063f816b" width="24" height="24" align="top"> Hydrological Modelling
 
 <!-- AUTO:count:hydrological-modelling:START -->
 <img src="https://img.shields.io/badge/-27%20libraries-1F6FB5?style=flat-square" alt="27 libraries">
@@ -458,7 +458,7 @@
 
 <a id="miscellaneous"></a>
 
-### <img src="assets/icons/miscellaneous.svg" width="24" height="24" align="top"> Miscellaneous
+### <img src="assets/icons/miscellaneous.svg?v=f29f9dfe" width="24" height="24" align="top"> Miscellaneous
 
 <!-- AUTO:count:miscellaneous:START -->
 <img src="https://img.shields.io/badge/-18%20libraries-1F6FB5?style=flat-square" alt="18 libraries">
@@ -489,7 +489,7 @@
 
 <a id="optimization-uncertainty-statistics"></a>
 
-### <img src="assets/icons/optimization-uncertainty-statistics.svg" width="24" height="24" align="top"> Optimization, Uncertainty, Statistics
+### <img src="assets/icons/optimization-uncertainty-statistics.svg?v=5a71d96d" width="24" height="24" align="top"> Optimization, Uncertainty, Statistics
 
 <!-- AUTO:count:optimization-uncertainty-statistics:START -->
 <img src="https://img.shields.io/badge/-14%20libraries-1F6FB5?style=flat-square" alt="14 libraries">
@@ -516,7 +516,7 @@
 
 <a id="time-series-analysis"></a>
 
-### <img src="assets/icons/time-series-analysis.svg" width="24" height="24" align="top"> Time Series Analysis
+### <img src="assets/icons/time-series-analysis.svg?v=ae4ec89b" width="24" height="24" align="top"> Time Series Analysis
 
 <!-- AUTO:count:time-series-analysis:START -->
 <img src="https://img.shields.io/badge/-8%20libraries-1F6FB5?style=flat-square" alt="8 libraries">
@@ -539,7 +539,7 @@
 
 <a id="meteorology"></a>
 
-## <img src="assets/icons/meteorology.svg" width="30" height="30" align="top"> Meteorology
+## <img src="assets/icons/meteorology.svg?v=ed956c82" width="30" height="30" align="top"> Meteorology
 
 <!-- AUTO:count:meteorology:START -->
 <img src="https://img.shields.io/badge/-21%20libraries-5B5BD6?style=flat-square" alt="21 libraries">
@@ -577,7 +577,7 @@
 
 <a id="oceanography"></a>
 
-## <img src="assets/icons/oceanography.svg" width="30" height="30" align="top"> Oceanography
+## <img src="assets/icons/oceanography.svg?v=79d137b6" width="30" height="30" align="top"> Oceanography
 
 <!-- AUTO:count:oceanography:START -->
 <img src="https://img.shields.io/badge/-9%20libraries-0B4F8A?style=flat-square" alt="9 libraries">
@@ -603,7 +603,7 @@
 
 <a id="seismology"></a>
 
-## <img src="assets/icons/seismology.svg" width="30" height="30" align="top"> Seismology
+## <img src="assets/icons/seismology.svg?v=acca4e67" width="30" height="30" align="top"> Seismology
 
 <!-- AUTO:count:seismology:START -->
 <img src="https://img.shields.io/badge/-7%20libraries-C2413B?style=flat-square" alt="7 libraries">
@@ -629,7 +629,7 @@
 
 <a id="contributing"></a>
 
-## <img src="assets/icons/contributing.svg" width="30" height="30" align="top"> Contributing
+## <img src="assets/icons/contributing.svg?v=d01c1c9e" width="30" height="30" align="top"> Contributing
 
 Contributions are always welcome. To add a library:
 
@@ -647,7 +647,7 @@ Contributions are always welcome. To add a library:
 
 <a id="star-history"></a>
 
-## <img src="assets/icons/star-history.svg" width="30" height="30" align="top"> Star History
+## <img src="assets/icons/star-history.svg?v=8c795ad1" width="30" height="30" align="top"> Star History
 
 <p align="center">
   <a href="https://star-history.com/#javedali99/python-resources-for-earth-sciences&Date">
@@ -659,14 +659,14 @@ Contributions are always welcome. To add a library:
 
 <a id="connect"></a>
 
-## <img src="assets/icons/connect.svg" width="30" height="30" align="top"> Connect
+## <img src="assets/icons/connect.svg?v=9290c2dc" width="30" height="30" align="top"> Connect
 
 <!-- AUTO:connect:START -->
 <p align="center">
-  <a href="https://javedali.net"><img src="assets/connect/website.svg" width="200" alt="Website: javedali.net"></a>
-  <a href="https://www.linkedin.com/in/javedali18"><img src="assets/connect/linkedin.svg" width="200" alt="LinkedIn: in/javedali18"></a>
-  <a href="https://twitter.com/javedali99"><img src="assets/connect/x.svg" width="200" alt="X: @javedali99"></a>
-  <a href="mailto:javedali28@gmail.com"><img src="assets/connect/email.svg" width="200" alt="Email: javedali28@gmail.com"></a>
+  <a href="https://javedali.net"><img src="assets/connect/website.svg?v=ecc86560" width="200" alt="Website: javedali.net"></a>
+  <a href="https://www.linkedin.com/in/javedali18"><img src="assets/connect/linkedin.svg?v=608deb3a" width="200" alt="LinkedIn: in/javedali18"></a>
+  <a href="https://twitter.com/javedali99"><img src="assets/connect/x.svg?v=ec87ec70" width="200" alt="X: @javedali99"></a>
+  <a href="mailto:javedali28@gmail.com"><img src="assets/connect/email.svg?v=30130d9d" width="200" alt="Email: javedali28@gmail.com"></a>
 </p>
 <!-- AUTO:connect:END -->
 

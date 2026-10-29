@@ -24,7 +24,9 @@ What it does on every run
 
    Blocks: ``stats`` (badges), ``grid`` (domain cards), ``toc``, ``connect`` and one
    ``count:<id>`` badge per domain and subfield.
-4. **Redraws the graphics** in ``assets/`` from the same counts:
+4. **Redraws the graphics** in ``assets/`` from the same counts, then adds
+   ``?v=<hash>`` to each image link so updated graphics are never hidden
+   by a cached old copy:
 
    * ``icons/<id>.svg``                       icon tiles for every domain,
                                               Hydrology subfield and section
@@ -44,6 +46,7 @@ Add it to ``DOMAINS`` below (id, name, colour, icon) and add its anchor
 the table of contents then pick it up automatically.
 """
 
+import hashlib
 import math
 import os
 import re
@@ -547,6 +550,25 @@ def block_connect():
     return '<p align="center">\n' + "\n".join(links) + "\n</p>"
 
 
+def version_asset_links(text, root):
+    """Add ``?v=<hash>`` to every local image link (``src="assets/..."``).
+
+    GitHub and browsers cache README images by URL. When a graphic is
+    redrawn under the same file name, readers can keep seeing the old
+    one. The hash is taken from the file's content, so the link changes
+    only when the image itself changes, and the new image shows at once.
+    """
+    def stamp(m):
+        rel = m.group(2)
+        path = os.path.join(root, rel)
+        if not os.path.isfile(path):
+            return m.group(0)
+        with open(path, "rb") as fh:
+            digest = hashlib.sha1(fh.read()).hexdigest()[:8]
+        return f'{m.group(1)}="{rel}?v={digest}"'
+    return re.sub(r'\b(src|srcset)="(assets/[^"?]+)(?:\?v=[0-9a-f]+)?"', stamp, text)
+
+
 def write(path, content):
     """Write a file only when its content changed (keeps git diffs clean)."""
     os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -578,7 +600,7 @@ def main(readme=README, assets=ASSETS):
 
     text = replace_block(text, "connect", block_connect())
 
-    changed = [write(readme, text)]
+    changed = []
     for d in DOMAINS:
         changed.append(write(os.path.join(assets, "icons", f"{d['id']}.svg"), svg_icon_file(d)))
         for sid, name, _ in d.get("subs", []):
@@ -591,6 +613,10 @@ def main(readme=README, assets=ASSETS):
     t = THEMES["light"]
     changed.append(write(os.path.join(assets, "about-stats.svg"), svg_about_stats(t, total)))
     changed.append(write(os.path.join(assets, "collection-map.svg"), svg_collection_map(t, total)))
+
+    # Stamp image links last, so each hash matches the file just written.
+    text = version_asset_links(text, os.path.dirname(readme))
+    changed.append(write(readme, text))
 
     print(f"{total} libraries in {len(DOMAINS)} domains; "
           + ", ".join(f"{d['short']} {d['count']}" for d in DOMAINS))
